@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 
 const MainNav = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="px-5">
       <Navbar.Brand href="">
         <img
           src="/logo.png"
@@ -17,7 +17,7 @@ const MainNav = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="">About</Nav.Link>
           <Nav.Link href="">Resilience</Nav.Link>
           <Nav.Link href="">Research</Nav.Link>
         </Nav>
