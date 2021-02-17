@@ -1,9 +1,11 @@
 import Meta from './Meta'
+import Nav from './Nav'
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Meta />  
+      <Meta />
+      <Nav />
       <main className="">{children}</main>
     </>
   )
