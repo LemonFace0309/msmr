@@ -1,0 +1,26 @@
+.TitleStart,
+.TitleMiddle {
+  font-weight: bold;
+  position: relative;
+  width: fit-content;
+}
+
+.TitleStart::after,
+.TitleMiddle::after {
+  content: '';
+  width: 150px;
+  height: 10px;
+  position: absolute;
+  bottom: -20px;
+  border-radius: 10px;
+  background-color: steelblue;
+}
+
+
+.TitleStart::after {
+  left: 0;
+}
+
+.TitleMiddle::after {
+  left: calc(50% - 75px);
+}
