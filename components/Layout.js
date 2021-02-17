@@ -1,3 +1,5 @@
+// @author Charles Liu
+
 import Meta from './Meta'
 import Nav from './Nav'
 
