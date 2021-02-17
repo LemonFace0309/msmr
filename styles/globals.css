@@ -1,7 +1,8 @@
 body {
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 70px;
+  /* padding-left: 8%;
+  padding-right: 8%; */
+  /* Use Bootstrap:Container for side padding */
+  padding-top: 65px;
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
   font-size: 18px;

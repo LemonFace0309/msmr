@@ -1,0 +1,42 @@
+.LandingRoot {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  /* padding: 0px !important; */
+  position: relative;
+  z-index: 10;
+}
+
+.LandingContent {
+  max-width: 800px;
+  padding: 50px 100px;
+}
+
+.LandingContent h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: steelblue;
+}
+
+.LandingImage {
+  position: absolute;
+  width: 700px;
+  height: inherit;
+  overflow: hidden;
+  top: 0px;
+  right: 0px;
+  z-index: -10;
+}
+
+.LandingImage .LandingCircle {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.LandingImage .LandingPhone {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -20px;
+}

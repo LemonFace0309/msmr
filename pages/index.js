@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import Landing from '../components/Landing'
 
 export default function Home() {
   return (
-    <div className="">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Landing />
+      <h1> Hello World </h1>
+    </>
   )
 }
