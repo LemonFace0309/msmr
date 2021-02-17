@@ -18,6 +18,18 @@
   color: steelblue;
 }
 
+.LandingContent .ButtonContainer {
+  display: flex;
+}
+
+.ButtonContainer > :first-child {
+  margin-right: 32px;
+}
+
+.ButtonContainer > p {
+  font-weight: 700;
+}
+
 .LandingImage {
   position: absolute;
   width: 700px;
