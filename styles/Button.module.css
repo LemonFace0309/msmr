@@ -1,3 +1,5 @@
+/* @author Charles Liu */
+
 .container {
   width: 150px;
   height: 45px;
@@ -9,7 +11,7 @@
 }
 
 .container > * {
-  transform: translateY(25%);
+  transform: translateY(35%);
 }
 
 .link:hover {

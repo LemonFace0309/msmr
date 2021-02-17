@@ -13,10 +13,10 @@ export default function Landing() {
         </h1>
         <div className={styles.ButtonContainer}>
           <Button type="whitePurple" link="/">
-            <h6>DOWNLOAD</h6>
+            <p>DOWNLOAD</p>
           </Button>
           <Button type="purpleWhite" link="/">
-            <h6>LEARN MORE</h6>
+            <p>LEARN MORE</p>
           </Button>
         </div>
       </div>
