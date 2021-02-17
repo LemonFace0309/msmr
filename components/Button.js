@@ -22,7 +22,6 @@ function Button(props) {
       </a>
     </Link>
   )
-  console.log(props.type)
 
   if (props.type == 'purpleWhite') {
     return purpleWhite
