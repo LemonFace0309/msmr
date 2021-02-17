@@ -1,8 +1,10 @@
-html,
 body {
-  padding: 0;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 70px;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px;
 }
 
 a {
