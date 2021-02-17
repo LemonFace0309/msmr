@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <>
       <Landing />
-      <h1> Hello World </h1>
     </>
   )
 }
