@@ -3,6 +3,7 @@
   font-weight: bold;
   position: relative;
   width: fit-content;
+  margin: 20px;
 }
 
 .TitleStart::after,
@@ -11,7 +12,7 @@
   width: 150px;
   height: 10px;
   position: absolute;
-  bottom: -20px;
+  bottom: -15px;
   border-radius: 10px;
   background-color: steelblue;
 }
