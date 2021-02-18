@@ -1,3 +1,5 @@
+// By William Shi
+
 import React from 'react'
 import NavStyles from '../styles/Nav.module.css'
 import { Navbar, Nav } from 'react-bootstrap'
