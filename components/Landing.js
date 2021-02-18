@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from './Button'
+import Button from './shared/Button'
 import styles from '../styles/Landing.module.css'
 
 export default function Landing() {

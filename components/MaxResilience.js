@@ -1,7 +1,7 @@
 // @author Jimmy Yang
 import React from 'react'
-import Title from '../components/Title'
-import Button from '../components/Button'
+import Title from './Title'
+import Button from './shared/Button'
 
 export default function MaxResilience() {
   return (
