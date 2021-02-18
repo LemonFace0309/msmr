@@ -1,7 +1,7 @@
 /* @author Charles Liu */
 
 import Banner from '../components/shared/Banner'
-import TextAndPic from '../components/Shared/TextAndPic'
+import TextAndPic from '../components/shared/TextAndPic'
 
 function about() {
   return (
