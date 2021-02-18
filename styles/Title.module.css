@@ -3,13 +3,13 @@
   font-weight: bold;
   position: relative;
   width: fit-content;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .TitleStart::after,
 .TitleMiddle::after {
   content: '';
-  width: 150px;
+  width: 100px;
   height: 10px;
   position: absolute;
   bottom: -15px;
@@ -23,5 +23,5 @@
 }
 
 .TitleMiddle::after {
-  left: calc(50% - 75px);
+  left: calc(50% - 50px);
 }
