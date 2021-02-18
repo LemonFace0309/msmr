@@ -12,7 +12,6 @@ export default function Home() {
       <AboutMSMR />
       <MaxResilience />
 
-      <h1> Hello World </h1>
 
 
       
