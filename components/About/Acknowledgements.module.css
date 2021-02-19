@@ -1,0 +1,19 @@
+/* @author Charles Liu */
+
+.container {
+  padding: 0 50px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.recogniationRow {
+  display: flex;
+  justify-content: center;
+}

@@ -3,8 +3,9 @@
 import styles from '../styles/About.module.css'
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
+import Acknowledgements from '../components/About/Acknowledgements'
 
-function about() {
+function about({ partners }) {
   return (
     <div>
       <Banner
@@ -71,8 +72,39 @@ function about() {
           </p>
         </div>
       </TextAndPic>
+      <Acknowledgements title="Collaborators and Partners" people={partners} />
     </div>
   )
 }
 
 export default about
+
+about.defaultProps = {
+  partners: {
+    one: {
+      name: 'Dr. Maureen Reed',
+      titles: ['Professor, Ryerson University'],
+    },
+    two: {
+      name: 'Dr. Kenneth Fung',
+      titles: [
+        'Clinical Director',
+        'Asian Initiatives in Mental Health',
+        'Toronto Western Hospital',
+        '---------------------------------',
+        'Associate Professor, University of Toronto',
+      ],
+    },
+    three: {
+      name: 'Dr. Josephine Wong',
+      titles: [
+        'Professor and Research Chair in Urban Health',
+        'Ryerson University',
+      ],
+    },
+    four: {
+      name: 'Dr. Todd Girard',
+      titles: ['Associate Professor', 'Ryerson University'],
+    },
+  },
+}
