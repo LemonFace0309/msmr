@@ -21,7 +21,7 @@ function AppCard(props) {
         <Card.Text>{props.children}</Card.Text>
         <div className="d-flex justify-content-center">
           <Button type="purpleWhite" link="/">
-            <p>LEARN MORE</p>
+            <p>READ MORE</p>
           </Button>
         </div>
       </Card.Body>

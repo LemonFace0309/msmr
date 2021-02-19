@@ -11,10 +11,6 @@ export default function Home() {
       <Jumbotron />
       <AboutMSMR />
       <MaxResilience />
-
-
-
-      
     </>
   )
 }
