@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <footer className="row px-5 mx-5 py-5">
       <div className="container">
-        <div class="float-right">
+        <div className="float-right">
           <a>
             <img className={styles.icon} src="/icons/Twitter.png"></img>
           </a>

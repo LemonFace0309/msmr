@@ -1,5 +1,7 @@
 /* @author Charles Liu */
 
+import Image from 'next/image'
+
 import styles from '../styles/About.module.css'
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'

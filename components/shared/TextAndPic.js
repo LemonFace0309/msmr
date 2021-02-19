@@ -9,7 +9,7 @@ import styles from './TextAndPic.module.css'
 
 /**
  * A component with that pairs text and an image together in a row.
- * children should be the text contained within the <TextAndPic>...<TextAndPic/> Tag
+ * @param {React.Component }children - should be the text contained within the <TextAndPic>...<TextAndPic/> Tag
  * @param {Num} textWidth - is the width of the text component at the md breakpoint
  * @param {Num} imageWidth - is the width of the image component at the md breakpoint
  * @param {String} image - is the url of the image
