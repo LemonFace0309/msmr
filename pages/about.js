@@ -1,5 +1,6 @@
 /* @author Charles Liu */
 
+import styles from '../styles/About.module.css'
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 
@@ -35,6 +36,38 @@ function about() {
             services, as well as customize application builds to serve the needs
             of different organizations. To inquire about the use of the MSMR,
             please contact us.
+          </p>
+        </div>
+      </TextAndPic>
+      <TextAndPic
+        textWidth={8}
+        imageWidth={4}
+        image="/images/portrait.jpg"
+        isImageFirst={true}
+      >
+        <div className={styles.bioTextWrapper}>
+          <h2>Author and Creator</h2>
+          <p>
+            Dr. Liu is the creator and lead author of the Multi-System Model of
+            Resilience (MSMR). She is a Postdoctoral Research Fellow in
+            Psychiatry at the Toronto Western Hospital-Krembil Research
+            Institute, University Health Network, and a Postdoctoral Fellow
+            within Urban Health Equity Research at the Daphne Cockwell School of
+            Nursing, Ryerson University. Dr. Liu is also an elected board member
+            of the Society for the Study of Psychiatry and Culture, an
+            international organization devoted to fostering cultural aspects of
+            mental health and illness. Dr. Liu’s background is in psychological
+            science, and her scholarship activities bridge research in stress
+            and resilience with community-based applications. Dr. Liu has
+            received several grants and awards to fund the development and
+            validation of the model and measure of resilience, including the
+            digitization of this measure. She is the recipient of several
+            prestigious awards, including the American Psychological
+            Association’s Dissertation Award, the Psychology Foundation of
+            Canada / Canadian Psychological Association Research Award, the
+            Ryerson Gold Medal, and the Board of Governor’s Leadership Award.
+            The model and tool are currently used in several multi-year projects
+            around the world.
           </p>
         </div>
       </TextAndPic>
