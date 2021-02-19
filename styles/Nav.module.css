@@ -1,6 +1,13 @@
-span.brand {
+.Brand {
   font-size: 1.6rem;
   font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.Brand:hover {
+  color: #444;
+  text-decoration: none;
 }
 
 nav.navbar {
