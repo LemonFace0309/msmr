@@ -1,0 +1,42 @@
+/* @author Charles Liu */
+
+.container {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 40vh;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #95a9ef;
+  /* background: radial-gradient(transparent 0%, #95a9ef 100%); */
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  background-color: #95a9ef;
+  opacity: 0.9;
+  padding: 20px 0px;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.title > h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}

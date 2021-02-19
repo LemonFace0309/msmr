@@ -1,0 +1,32 @@
+/* @author Charles Liu */
+
+.Container {
+  padding: 0px 5%;
+}
+
+.Row {
+  padding: 50px 0px;
+}
+
+.ImageWrapper {
+  height: 80%;
+  width: 80%;
+  min-height: 200px;
+  min-width: 150px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+@media (max-width: 768px) {
+  .ImageWrapper {
+    margin: 0;
+    height: 60vh;
+    width: 80vw;
+    position: relative;
+    margin: 10px 0px 30px 0px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
