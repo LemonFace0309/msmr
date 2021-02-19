@@ -3,7 +3,7 @@ import React from 'react'
 import Title from './Title'
 import Button from './Button'
 
-export default function ResearchingResilience() {
+function ResearchingResilience() {
   return (
     <section className="container py-5 d-flex flex-column justify-content-center align-items-center">
     <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
@@ -26,3 +26,5 @@ export default function ResearchingResilience() {
   </section>
   )
 }
+
+export default ResearchingResilience
