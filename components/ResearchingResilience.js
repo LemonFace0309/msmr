@@ -1,7 +1,7 @@
 // @author Jimmy Yang
 import React from 'react'
 import Title from './Title'
-import Button from './Button'
+import Button from './shared/Button'
 
 function ResearchingResilience() {
   return (
