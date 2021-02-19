@@ -2,23 +2,35 @@
 
 import Button from './Button'
 import { Card } from 'react-bootstrap'
+import Image from 'next/image'
+
+import styles from './Card.module.css'
 
 /* NOTE: image sizing in bootstrap sucks balls, so we have to
     make sure that all images on relevant cards are the same size. */
 
-/* PROPS:
-    title: title of the card
-    img: image link
-    children: card's paragraph content
-    */
-
-function AppCard(props) {
+/**
+ * A card component which displays an image, a title, some text, and a
+ * "read more" button
+ * @param {String} title - is the title of the card
+ * @param {String} img - the link to the image
+ * @param {React.Component} children - is the paragraph text
+ */
+function AppCard({ title, img, children }) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={`${props.img}`} className="px-2 pt-2" />
+    <Card style={{ width: '20rem' }}>
+      <div className={styles.test}>
+        <Image
+          src={img}
+          layout="fill"
+          className="px-2 pt-2"
+          objectFit="cover"
+          objectPosition="center center"
+        />
+      </div>
       <Card.Body className="text-center">
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text>{props.children}</Card.Text>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{children}</Card.Text>
         <div className="d-flex justify-content-center">
           <Button type="purpleWhite" link="/">
             <p>READ MORE</p>
