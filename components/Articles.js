@@ -4,8 +4,8 @@ import React from 'react'
 import Card from './shared/Card'
 
 const Articles = ({ cards }) => {
-  const articles = Object.keys(cards).map((card) => (
-    <div className="m-3">
+  const articles = Object.keys(cards).map((card, i) => (
+    <div className="m-3" key={i}>
       <Card title={cards[card].title} img={cards[card].img}>
         {cards[card].text}
       </Card>
