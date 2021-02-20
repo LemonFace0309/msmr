@@ -16,7 +16,6 @@ function Button({type, link, children}) {
     classes.push(styles.whitePurple)
   }
   classes = classes.join(' ')
-  console.log(classes)
 
   return (
     <Link href={link}>

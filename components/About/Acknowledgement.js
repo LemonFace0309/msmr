@@ -3,7 +3,7 @@
 import styles from './Acknowledgement.module.css'
 
 function Acknowledgement({ name, titles }) {
-  const positions = titles.map((title) => <p>{title}</p>)
+  const positions = titles.map((title) => <p key={title}>{title}</p>)
 
   return (
     <div className={styles.container}>
