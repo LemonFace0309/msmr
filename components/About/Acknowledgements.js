@@ -9,7 +9,7 @@ import Acknowledgement from './Acknowledgement'
 
 function Acknowledgements({ title, people }) {
   const recognition = Object.keys(people).map((person) => (
-    <Col md={2} className="mb-4">
+    <Col md={2} className="mb-4" key={people[person].name}>
       <Acknowledgement
         name={people[person].name}
         titles={people[person].titles}
