@@ -3,16 +3,16 @@
   font-weight: bold;
   position: relative;
   width: fit-content;
-  margin: 20px 0px;
+  margin: 25px 0px;
 }
 
 .TitleStart::after,
 .TitleMiddle::after {
   content: '';
   width: 100px;
-  height: 10px;
+  height: 5px;
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   border-radius: 10px;
   background-color: steelblue;
 }

@@ -4,6 +4,8 @@ import Jumbotron from '../components/Jumbotron'
 import MaxResilience from '../components/MaxResilience'
 import AboutMSMR from '../components/AboutMSMR'
 import Articles from '../components/Articles'
+import NewsAndMedia from '../components/NewsAndMedia'
+import ResearchingResilience from '../components/ResearchingResilience'
 
 export default function Home({ articles }) {
   return (
@@ -12,6 +14,8 @@ export default function Home({ articles }) {
       <Jumbotron />
       <AboutMSMR />
       <MaxResilience />
+      <ResearchingResilience />
+      <NewsAndMedia />
       <Articles cards={articles} />
     </>
   )
