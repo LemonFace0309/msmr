@@ -18,8 +18,8 @@ import styles from './Card.module.css'
  */
 function AppCard({ title, img, children }) {
   return (
-    <Card style={{ width: '20rem' }}>
-      <div className={styles.test}>
+    <Card style={{ width: '20rem' }} className="shadow-sm">
+      <div className={styles.imageSize}>
         <Image
           src={img}
           layout="fill"
