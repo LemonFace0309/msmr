@@ -1,0 +1,13 @@
+/* @author Charles Liu */
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.imageContainer {
+  margin: 20px 0px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}

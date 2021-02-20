@@ -7,7 +7,7 @@ import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 import Acknowledgements from '../components/About/Acknowledgements'
 
-function about({ partners }) {
+function about({ partners, researchers, techSupport, funderImages }) {
   return (
     <div>
       <Banner
@@ -75,6 +75,13 @@ function about({ partners }) {
         </div>
       </TextAndPic>
       <Acknowledgements title="Collaborators and Partners" people={partners} />
+      <Acknowledgements title="Staff Researchers" people={researchers} />
+      <Acknowledgements title="Tech Support" people={techSupport} />
+      <Acknowledgements
+        title="Funders"
+        subtitle="The MSMR projects are generously supported by funds from:"
+        images={funderImages}
+      />
     </div>
   )
 }
@@ -107,6 +114,33 @@ about.defaultProps = {
     four: {
       name: 'Dr. Todd Girard',
       titles: ['Associate Professor', 'Ryerson University'],
+    },
+  },
+  researchers: {
+    one: {
+      name: 'Julia Gervaslo',
+      titles: ['MA student, Ryerson University'],
+    },
+  },
+  techSupport: {
+    one: {
+      name: 'Likeable IT Inc',
+      titles: [],
+    },
+    two: {
+      name: 'Cache & Cookies',
+      titles: ['Software Development'],
+    },
+  },
+  funderImages: {
+    rbc: {
+      url: '/images/RBC.png',
+      caption:
+        'The Royal Bank of Canada’s Partnership for Change, Inclusion, and Diversity Project Grant',
+    },
+    cpa: {
+      url: '/images/CPA.jpg',
+      caption: 'Canadian Psychological Association Student Research Grant',
     },
   },
 }
