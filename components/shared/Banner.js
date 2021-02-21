@@ -7,7 +7,7 @@ import styles from './Banner.module.css'
 
 /**
  * Creates a banner component
- * @param {string} url - is the url of the image
+ * @param {string} url - is the url source of the image
  * @param {string} title - title of the banner 
  */ 
 function Banner({ url, title }) {
