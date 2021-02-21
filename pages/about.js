@@ -89,12 +89,12 @@ function about({ partners, researchers, techSupport, funderImages }) {
 export default about
 
 about.defaultProps = {
-  partners: {
-    one: {
+  partners: [
+    {
       name: 'Dr. Maureen Reed',
       titles: ['Professor, Ryerson University'],
     },
-    two: {
+    {
       name: 'Dr. Kenneth Fung',
       titles: [
         'Clinical Director',
@@ -104,43 +104,45 @@ about.defaultProps = {
         'Associate Professor, University of Toronto',
       ],
     },
-    three: {
+    {
       name: 'Dr. Josephine Wong',
       titles: [
         'Professor and Research Chair in Urban Health',
         'Ryerson University',
       ],
     },
-    four: {
+    {
       name: 'Dr. Todd Girard',
       titles: ['Associate Professor', 'Ryerson University'],
     },
-  },
-  researchers: {
-    one: {
+  ],
+  researchers: [
+    {
       name: 'Julia Gervaslo',
       titles: ['MA student, Ryerson University'],
     },
-  },
-  techSupport: {
-    one: {
+  ],
+  techSupport: [
+    {
       name: 'Likeable IT Inc',
       titles: [],
     },
-    two: {
+    {
       name: 'Cache & Cookies',
       titles: ['Software Development'],
     },
-  },
-  funderImages: {
-    rbc: {
+  ],
+  funderImages: [
+    {
+      organization: 'rbc',
       url: '/images/RBC.png',
       caption:
         'The Royal Bank of Canada’s Partnership for Change, Inclusion, and Diversity Project Grant',
     },
-    cpa: {
+    {
+      organization: 'cpa',
       url: '/images/CPA.jpg',
       caption: 'Canadian Psychological Association Student Research Grant',
     },
-  },
+  ],
 }
