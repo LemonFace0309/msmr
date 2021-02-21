@@ -11,11 +11,11 @@ import Funder from './Funder'
 function Acknowledgements({ title, subtitle, people, images }) {
   let peopleRecognition
   if (people) {
-    peopleRecognition = Object.keys(people).map((person) => (
-      <Col md={2} className="mb-4" key={person}>
+    peopleRecognition = people.map((person) => (
+      <Col md={2} className="mb-4" key={person.name}>
         <Acknowledgement
-          name={people[person].name}
-          titles={people[person].titles}
+          name={person.name}
+          titles={person.titles}
         />
       </Col>
     ))
@@ -23,9 +23,9 @@ function Acknowledgements({ title, subtitle, people, images }) {
 
   let imageRecognition
   if (images) {
-    imageRecognition = Object.keys(images).map((img) => (
-      <Col md={4} className="mb-4" key={img}>
-        <Funder url={images[img].url} caption={images[img].caption} />
+    imageRecognition = images.map((img) => (
+      <Col md={4} className="mb-4" key={img.organization}>
+        <Funder url={img.url} caption={img.caption} />
       </Col>
     ))
   }
