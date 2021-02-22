@@ -1,0 +1,11 @@
+/* @author Charles Liu */
+
+.textContainer {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .textContainer {
+    padding-bottom: 0px;
+  }
+}
