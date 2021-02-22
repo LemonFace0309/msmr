@@ -1,6 +1,7 @@
 // @author Jimmy Yang
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
+import CovidBanner from '../components/ResilienceResource/CovidBanner'
 
 function resilience() {
   return (
@@ -17,6 +18,9 @@ function resilience() {
           </p>
         </div>
       </TextAndPic>
+
+
+      <CovidBanner />
     </div>
   )
 }
