@@ -1,0 +1,19 @@
+.ColourBox {
+  /* border: 2px solid black; */
+  padding: 0 10px;
+}
+
+.ColourBox h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 10px 0px ;
+}
+
+.ColourBox ul {
+  margin: 0;
+}
+
+.ColourBox li {
+  font-size: 14px;
+  line-height: 18px;
+}
