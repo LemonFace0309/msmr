@@ -7,7 +7,7 @@ import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 import Acknowledgements from '../components/About/Acknowledgements'
 
-function about({ partners }) {
+function about({ partners, researchers, techSupport, funderImages }) {
   return (
     <div>
       <Banner
@@ -75,6 +75,13 @@ function about({ partners }) {
         </div>
       </TextAndPic>
       <Acknowledgements title="Collaborators and Partners" people={partners} />
+      <Acknowledgements title="Staff Researchers" people={researchers} />
+      <Acknowledgements title="Tech Support" people={techSupport} />
+      <Acknowledgements
+        title="Funders"
+        subtitle="The MSMR projects are generously supported by funds from:"
+        images={funderImages}
+      />
     </div>
   )
 }
@@ -82,12 +89,12 @@ function about({ partners }) {
 export default about
 
 about.defaultProps = {
-  partners: {
-    one: {
+  partners: [
+    {
       name: 'Dr. Maureen Reed',
       titles: ['Professor, Ryerson University'],
     },
-    two: {
+    {
       name: 'Dr. Kenneth Fung',
       titles: [
         'Clinical Director',
@@ -97,16 +104,45 @@ about.defaultProps = {
         'Associate Professor, University of Toronto',
       ],
     },
-    three: {
+    {
       name: 'Dr. Josephine Wong',
       titles: [
         'Professor and Research Chair in Urban Health',
         'Ryerson University',
       ],
     },
-    four: {
+    {
       name: 'Dr. Todd Girard',
       titles: ['Associate Professor', 'Ryerson University'],
     },
-  },
+  ],
+  researchers: [
+    {
+      name: 'Julia Gervaslo',
+      titles: ['MA student, Ryerson University'],
+    },
+  ],
+  techSupport: [
+    {
+      name: 'Likeable IT Inc',
+      titles: [],
+    },
+    {
+      name: 'Cache & Cookies',
+      titles: ['Software Development'],
+    },
+  ],
+  funderImages: [
+    {
+      organization: 'rbc',
+      url: '/images/RBC.png',
+      caption:
+        'The Royal Bank of Canada’s Partnership for Change, Inclusion, and Diversity Project Grant',
+    },
+    {
+      organization: 'cpa',
+      url: '/images/CPA.jpg',
+      caption: 'Canadian Psychological Association Student Research Grant',
+    },
+  ],
 }

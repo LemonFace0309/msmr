@@ -12,6 +12,7 @@
 
 .container > * {
   transform: translateY(35%);
+  font-size: smaller;
 }
 
 .link:hover {
