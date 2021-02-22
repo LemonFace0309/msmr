@@ -1,6 +1,6 @@
 // @author Jimmy Yang
 import React from 'react'
-import styles from '../../styles/ColourBox.module.css'
+import styles from './ColourBox.module.css'
 
 function ColourBox({ title, points, foreground, background, width, height, margin }) {
   return (

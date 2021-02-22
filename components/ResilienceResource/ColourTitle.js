@@ -1,6 +1,6 @@
 // @author Jimmy Yang
 import React from 'react'
-import styles from '../../styles/ColourTitle.module.css'
+import styles from './ColourTitle.module.css'
 
 // ColourTitle is a colourful boxed title
 // @param { title } - The title
