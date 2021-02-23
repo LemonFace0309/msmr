@@ -1,0 +1,40 @@
+/* @author Charles Liu */
+
+.container {
+  width: 150px;
+  height: 45px;
+  border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+  transform: translateY(35%);
+  font-size: smaller;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.purpleWhite {
+  background-color: #55679b;
+  color: white;
+  box-shadow: 1px 2px 4px #95a9ef;
+}
+
+.purpleWhite:hover {
+  background-color: #506091;
+}
+
+.whitePurple {
+  background-color: white;
+  color: #55679b;
+  box-shadow: 1px 2px 4px rgb(196, 196, 196);
+}
+
+.whitePurple:hover {
+  background-color: rgb(253, 253, 253);
+}

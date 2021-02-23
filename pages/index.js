@@ -1,65 +1,45 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Landing from '../components/Landing'
+import Jumbotron from '../components/Jumbotron'
+import MaxResilience from '../components/MaxResilience'
+import AboutMSMR from '../components/AboutMSMR'
+import Articles from '../components/Articles'
+import NewsAndMedia from '../components/NewsAndMedia'
+import ResearchingResilience from '../components/ResearchingResilience'
 
-export default function Home() {
+export default function Home({ articles }) {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    <>
+      <Landing />
+      <Jumbotron />
+      <AboutMSMR />
+      <MaxResilience />
+      <ResearchingResilience />
+      <NewsAndMedia />
+      <Articles cards={articles} />
+    </>
   )
+}
+
+Home.defaultProps = {
+  articles: {
+    one: {
+      title: 'IPPA Leader Series Welcomes Dr. Jenny Liu',
+      img: '/images/aboutmsmr.png',
+      text:
+        'UPDATED: January 5, 2020 Dr. Jenny Liu delivers a presentation on resilience and how it can be strengthened...',
+    },
+    two: {
+      title: 'Resilience is More than your Mindset',
+      img: '/images/maxres.jpeg',
+      text:
+        'Wellness Solutions podcast hosts Mary Mangos and Danny Blackford explore the topic of resistance with Dr. Jenny Liu.',
+    },
+    three: {
+      title: 'What Does it Take to Increase Our Resilience?',
+      img: '/images/jumbotron.png',
+      text:
+        'Dr. Jenny Liu’s work is featured at the Society of Clinical Psychology. A small excerpt from her article is quoted below...',
+    },
+  },
 }

@@ -1,9 +1,11 @@
-html,
 body {
-  padding: 0;
+  /* padding-left: 8%;
+  padding-right: 8%; */
+  /* Use Bootstrap:Container for side padding */
+  padding-top: 65px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px;
 }
 
 a {

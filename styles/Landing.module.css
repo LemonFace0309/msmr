@@ -1,0 +1,54 @@
+.LandingRoot {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  position: relative;
+  z-index: 10;
+}
+
+.LandingContent {
+  max-width: 800px;
+  padding: 50px 100px;
+}
+
+.LandingContent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #95a9ef;
+}
+
+.LandingContent .ButtonContainer {
+  margin-top: 40px;
+  display: flex;
+}
+
+.ButtonContainer > :first-child {
+  margin-right: 32px;
+}
+
+.ButtonContainer > p {
+  font-weight: 700;
+}
+
+.LandingImage {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  top: 0px;
+  right: 0px;
+  z-index: -10;
+}
+
+.LandingImage .LandingCircle {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.LandingImage .LandingPhone {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -20px;
+}
