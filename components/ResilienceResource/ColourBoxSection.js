@@ -4,7 +4,11 @@ import ColourTitle from './ColourTitle'
 import ColourBox from './ColourBox'
 import ColourBoxContainer from './ColourBoxContainer'
 
-function ColourBoxSection({ internalResilience, copingPursuits, externalResilience}) {
+function ColourBoxSection({
+  internalResilience,
+  copingPursuits,
+  externalResilience,
+}) {
   return (
     <>
       <ColourTitle
@@ -25,7 +29,8 @@ function ColourBoxSection({ internalResilience, copingPursuits, externalResilien
               width={internalResilience.width}
               height={internalResilience.height}
               margin={internalResilience.margin}
-            />)
+            />
+          )
         })}
       </ColourBoxContainer>
 
@@ -47,7 +52,8 @@ function ColourBoxSection({ internalResilience, copingPursuits, externalResilien
               width={copingPursuits.width}
               height={copingPursuits.height}
               margin={copingPursuits.margin}
-            />)
+            />
+          )
         })}
       </ColourBoxContainer>
 
@@ -69,91 +75,86 @@ function ColourBoxSection({ internalResilience, copingPursuits, externalResilien
               width={externalResilience.width}
               height={externalResilience.height}
               margin={externalResilience.margin}
-            />)
+            />
+          )
         })}
       </ColourBoxContainer>
     </>
   )
 }
 
-
 ColourBoxSection.defaultProps = {
   internalResilience: {
-    foreground: "black",
-    background: "#FCAC4B",
+    foreground: 'black',
+    background: '#FCAC4B',
     width: 450,
     height: 210,
     margin: 10,
     boxes: [
       {
-        title: "Identifying and prioritizing your mental health",
+        title: 'Identifying and prioritizing your mental health',
         points: [
-          "take breaks when needed",
-          "allow yourself to have down-time or “me time”",
-          "listen to your signs of distress, such as being stressed, anxious or depressed",
-          "seek assistance or tell someone who listens",
-        ]
+          'take breaks when needed',
+          'allow yourself to have down-time or “me time”',
+          'listen to your signs of distress, such as being stressed, anxious or depressed',
+          'seek assistance or tell someone who listens',
+        ],
       },
       {
-        title: "Identifying and prioritizing your physical health",
+        title: 'Identifying and prioritizing your physical health',
         points: [
-          "get enough sleep",
-          "have a balanced and nutritious diet",
-          "have regular check-ups with your health provider(s)",
-          "Engaging in exercises that train your mind and help with mood",
-          "meditation or yoga",
-        ]
+          'get enough sleep',
+          'have a balanced and nutritious diet',
+          'have regular check-ups with your health provider(s)',
+          'Engaging in exercises that train your mind and help with mood',
+          'meditation or yoga',
+        ],
       },
       {
-        title: "Exercising your body through physical activities",
-        points: [
-          "running, walking, going to the gym",
-          "enjoying hobbies",
-        ]
+        title: 'Exercising your body through physical activities',
+        points: ['running, walking, going to the gym', 'enjoying hobbies'],
       },
-    ]
+    ],
   },
   copingPursuits: {
-    foreground: "#95A9EF",
-    background: "white",
+    foreground: '#95A9EF',
+    background: 'white',
     width: 450,
     height: 250,
     margin: 10,
     boxes: [
       {
-        title: "Identifying your strengths",
+        title: 'Identifying your strengths',
         points: [
-          "what are you good at?",
-          "how can these strengths help you with your current challenges and activities?",
-          "relate your strengths to your goals",
-        ]
+          'what are you good at?',
+          'how can these strengths help you with your current challenges and activities?',
+          'relate your strengths to your goals',
+        ],
       },
       {
-        title: "Find meaning in life’s challenges",
+        title: 'Find meaning in life’s challenges',
         points: [
-          "approaching challenges as new experiences to learn and grow",
-          "ask yourself what motivates you in different circumstances",
-        ]
+          'approaching challenges as new experiences to learn and grow',
+          'ask yourself what motivates you in different circumstances',
+        ],
       },
       {
-        title: "Explore new opportunities",
-        points: [
-          "challenge yourself to try new things, big or small",
-        ]
+        title: 'Explore new opportunities',
+        points: ['challenge yourself to try new things, big or small'],
       },
       {
-        title: "Everyone experiences failures",
+        title: 'Everyone experiences failures',
         points: [
-          "do not let failures define your story or your worth as a person",
-          "figure out what you can learn from these experiences",
-          "examine what opportunities or change can come from these failures",
-        ]
+          'do not let failures define your story or your worth as a person',
+          'figure out what you can learn from these experiences',
+          'examine what opportunities or change can come from these failures',
+        ],
       },
-    ]
+    ],
   },
   externalResilience: {
-    foreground: "lightblue",
-    background: "#7AF0F7",
+    foreground: 'lightblue',
+    background: '#7AF0F7',
     width: 500,
     height: 200,
     margin: 0,
@@ -161,27 +162,26 @@ ColourBoxSection.defaultProps = {
       {
         title: null,
         points: [
-          "managing your finances to allow you to meet your needs",
-          "budgeting",
-          "engage in financial planning",
-          "accessing social services that assists with finances and education",
-          "identifying, or creating an identity",
-          "find family, friends, or communities in which you feel supported",
-        ]
+          'managing your finances to allow you to meet your needs',
+          'budgeting',
+          'engage in financial planning',
+          'accessing social services that assists with finances and education',
+          'identifying, or creating an identity',
+          'find family, friends, or communities in which you feel supported',
+        ],
       },
       {
         title: null,
         points: [
-          "make decisions, large or small, that help you feel in control of your life",
-          "access support services and resources available to you",
-          "know your rights to social, legal, and health services in your community",
-          "know where to seek help should you require these services e.g., web search, local government websites",
-          "ensure you can physically access them if needed",
-        ]
+          'make decisions, large or small, that help you feel in control of your life',
+          'access support services and resources available to you',
+          'know your rights to social, legal, and health services in your community',
+          'know where to seek help should you require these services e.g., web search, local government websites',
+          'ensure you can physically access them if needed',
+        ],
       },
-    ]
+    ],
   },
 }
-
 
 export default ColourBoxSection

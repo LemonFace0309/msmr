@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
@@ -13,5 +14,8 @@
     "react": "17.0.1",
     "react-bootstrap": "^1.5.0",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
   }
 }
