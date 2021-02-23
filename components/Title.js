@@ -15,9 +15,5 @@ export default function Title({ title, position }) {
   titleStyle = titleStyle.join(' ')
 
   console.log(titleStyle)
-  return (
-    <h1 className={ titleStyle }>
-      { title }
-    </h1>
-  )
+  return <h1 className={titleStyle}>{title}</h1>
 }

@@ -16,7 +16,7 @@ import styles from './TextAndPic.module.css'
  * @param {Bool} isImageFirst - true if image comes before text, false by default
  * note: textWidth and imageWidth shuold add up to 12
  */
-function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst}) {
+function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
   const imageOrder = isImageFirst ? { span: 12, order: 'first' } : 12
 
   return (
