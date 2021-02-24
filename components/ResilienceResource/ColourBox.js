@@ -12,6 +12,7 @@ import styles from './ColourBox.module.css'
  * @param {width} - px width of each box
  * @param {height} - px height of each box
  * @param {margin} - px margin of each box
+ * @param {format} - one of ['points', 'paragraphs']
  */
 function ColourBox({
   title,
