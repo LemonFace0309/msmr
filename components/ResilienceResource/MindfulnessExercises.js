@@ -2,11 +2,11 @@
 import React from 'react'
 import ColourBox from './ColourBox'
 import ColourBoxContainer from './ColourBoxContainer'
-import styles from './MindfulnessExcercises.module.css'
+import styles from './MindfulnessExercises.module.css'
 
-function MindfulnessExcercises({ excercises }) {
+function MindfulnessExercises({ exercises }) {
   return (
-    <div className={styles.MindfulnessExcercises}>
+    <div className={styles.MindfulnessExercises}>
       <h1>
         {' '}
         The following mindfulness exercises may be useful, and were produced for
@@ -15,18 +15,18 @@ function MindfulnessExcercises({ excercises }) {
       </h1>
 
       <ColourBoxContainer>
-        {excercises.boxes.map((box) => {
+        {exercises.boxes.map((box) => {
           return (
             <ColourBox
               key={box.title}
               title={box.title}
               points={box.points}
-              foreground={excercises.foreground}
-              background={excercises.background}
-              width={excercises.width}
-              height={excercises.height}
-              margin={excercises.margin}
-              format={excercises.format}
+              foreground={exercises.foreground}
+              background={exercises.background}
+              width={exercises.width}
+              height={exercises.height}
+              margin={exercises.margin}
+              format={exercises.format}
             />
           )
         })}
@@ -48,8 +48,8 @@ function MindfulnessExcercises({ excercises }) {
   )
 }
 
-MindfulnessExcercises.defaultProps = {
-  excercises: {
+MindfulnessExercises.defaultProps = {
+  exercises: {
     foreground: '#95A9EF',
     background: 'white',
     width: 450,
@@ -79,4 +79,4 @@ MindfulnessExcercises.defaultProps = {
   },
 }
 
-export default MindfulnessExcercises
+export default MindfulnessExercises
