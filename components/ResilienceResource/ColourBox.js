@@ -21,7 +21,23 @@ function ColourBox({
   width,
   height,
   margin,
+  format,
 }) {
+  let content
+  if (format === 'points') {
+    content = (
+      <ul>
+        {points.map((point) => {
+          return <li> {point} </li>
+        })}
+      </ul>
+    )
+  } else if (format === 'paragraphs') {
+    content = points.map((point) => {
+      return <p> {point} </p>
+    })
+  }
+
   return (
     <div
       style={{
@@ -33,11 +49,7 @@ function ColourBox({
       className={styles.ColourBox}
     >
       <h2 style={{ color: foreground }}> {title} </h2>
-      <ul>
-        {points.map((point) => {
-          return <li> {point} </li>
-        })}
-      </ul>
+      {content}
     </div>
   )
 }

@@ -1,0 +1,19 @@
+.MindfulnessExcercises {
+  display: flex;
+  padding: 0 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MindfulnessExcercises h1 {
+  text-align: center;
+  font-size: large;
+  padding: 20px 0;
+}
+
+.MindfulnessExcercises .Disclaimer {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #95a9ef;
+}

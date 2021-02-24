@@ -3,6 +3,7 @@ import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 import ColourBoxSection from '../components/ResilienceResource/ColourBoxSection'
 import CovidBanner from '../components/ResilienceResource/CovidBanner'
+import MindfulnessExcercises from '../components/ResilienceResource/MindfulnessExcercises'
 
 function resilience() {
   return (
@@ -28,6 +29,7 @@ function resilience() {
       </TextAndPic>
       <ColourBoxSection />
       <CovidBanner />
+      <MindfulnessExcercises />
     </>
   )
 }

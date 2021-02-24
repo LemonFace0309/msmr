@@ -29,6 +29,7 @@ function ColourBoxSection({
               width={internalResilience.width}
               height={internalResilience.height}
               margin={internalResilience.margin}
+              format={internalResilience.format}
             />
           )
         })}
@@ -52,6 +53,7 @@ function ColourBoxSection({
               width={copingPursuits.width}
               height={copingPursuits.height}
               margin={copingPursuits.margin}
+              format={copingPursuits.format}
             />
           )
         })}
@@ -75,6 +77,7 @@ function ColourBoxSection({
               width={externalResilience.width}
               height={externalResilience.height}
               margin={externalResilience.margin}
+              format={externalResilience.format}
             />
           )
         })}
@@ -90,6 +93,7 @@ ColourBoxSection.defaultProps = {
     width: 450,
     height: 210,
     margin: 10,
+    format: 'points',
     boxes: [
       {
         title: 'Identifying and prioritizing your mental health',
@@ -122,6 +126,7 @@ ColourBoxSection.defaultProps = {
     width: 450,
     height: 250,
     margin: 10,
+    format: 'points',
     boxes: [
       {
         title: 'Identifying your strengths',
@@ -158,6 +163,7 @@ ColourBoxSection.defaultProps = {
     width: 500,
     height: 200,
     margin: 0,
+    format: 'points',
     boxes: [
       {
         title: null,
