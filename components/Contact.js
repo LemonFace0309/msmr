@@ -15,13 +15,18 @@ const Contact = () => {
         <Form className="px-5 mx-5">
           <Form.Row>
             <Form.Group as={Col} controlId="formGridName">
-              <Form.Control placeholder="Name" className={styles.input} />
+              <Form.Control
+                placeholder="Name*"
+                className={styles.input}
+                required
+              />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridEmail">
               <Form.Control
                 type="email"
-                placeholder="Email"
+                placeholder="Email*"
                 className={styles.input}
+                required
               />
             </Form.Group>
           </Form.Row>
@@ -34,9 +39,10 @@ const Contact = () => {
             <Form.Group as={Col} controlId="exampleForm.Text">
               <Form.Control
                 as="textarea"
-                placeholder="Message"
+                placeholder="Message*"
                 rows={5}
                 className={styles.input}
+                required
               />
             </Form.Group>
           </Form.Row>
