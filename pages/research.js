@@ -3,6 +3,8 @@
 import styles from '../styles/Research.module.css'
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
+import OngoingProjects from '../components/Research/OngoingProjects'
+import Publications from '../components/Research/Publications'
 
 function research() {
   return (
@@ -53,6 +55,8 @@ function research() {
           </p>
         </div>
       </TextAndPic>
+      <OngoingProjects />
+      <Publications />
     </div>
   )
 }
