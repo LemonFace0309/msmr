@@ -17,10 +17,18 @@ function Publications() {
       </Row>
       <Row>
         <Col xs={12} md={6}>
-          <Card img="/images/articles/placeholder.png" btnText="VIEW MORE" title="Featured Articles" />
+          <Card
+            img="/images/articles/placeholder.png"
+            btnText="VIEW MORE"
+            title="Featured Articles"
+          />
         </Col>
         <Col xs={12} md={6}>
-          <Card img="/images/articles/placeholder.png" btnText="VIEW MORE" title="MSMR Articles" />
+          <Card
+            img="/images/articles/placeholder.png"
+            btnText="VIEW MORE"
+            title="MSMR Articles"
+          />
         </Col>
       </Row>
     </Container>

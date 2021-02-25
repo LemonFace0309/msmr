@@ -21,10 +21,10 @@ function OngoingProjects() {
       </Row>
       <Row>
         <Col xs={12} md={3} className={styles.col}>
-            <Card img="/images/articles/placeholder.png" btnText="VIEW SITE">
-              Project PROTECH: Pandemic Rapid-response Optimization To Enhance
-              Community-resilience and Health
-            </Card>
+          <Card img="/images/articles/placeholder.png" btnText="VIEW SITE">
+            Project PROTECH: Pandemic Rapid-response Optimization To Enhance
+            Community-resilience and Health
+          </Card>
         </Col>
         <Col xs={12} md={3} className={styles.col}>
           <Card
