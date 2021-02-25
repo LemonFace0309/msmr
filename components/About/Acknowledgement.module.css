@@ -1,14 +1,14 @@
 /* @author Charles Liu */
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 .container h6 {
-    color: #95A9EF;
+  color: #95a9ef;
 }
 
 .container p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }

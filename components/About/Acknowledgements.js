@@ -13,10 +13,7 @@ function Acknowledgements({ title, subtitle, people, images }) {
   if (people) {
     peopleRecognition = people.map((person) => (
       <Col md={2} className="mb-4" key={person.name}>
-        <Acknowledgement
-          name={person.name}
-          titles={person.titles}
-        />
+        <Acknowledgement name={person.name} titles={person.titles} />
       </Col>
     ))
   }
