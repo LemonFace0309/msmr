@@ -6,6 +6,7 @@ import AboutMSMR from '../components/AboutMSMR'
 import Articles from '../components/Articles'
 import NewsAndMedia from '../components/NewsAndMedia'
 import ResearchingResilience from '../components/ResearchingResilience'
+import Contact from '../components/Contact'
 
 export default function Home({ articles }) {
   return (
@@ -17,6 +18,7 @@ export default function Home({ articles }) {
       <ResearchingResilience />
       <NewsAndMedia />
       <Articles cards={articles} />
+      <Contact />
     </>
   )
 }
