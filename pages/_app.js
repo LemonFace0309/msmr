@@ -1,5 +1,8 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import config from 'react-reveal/globals';
+
+config({ ssrFadeout: true });
 
 import Layout from '../components/Layout'
 
