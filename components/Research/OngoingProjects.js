@@ -21,10 +21,17 @@ function OngoingProjects() {
       </Row>
       <Row>
         <Col xs={12} md={3} className={styles.col}>
+<<<<<<< HEAD
             <Card img="/images/articles/placeholder.png" btnText="VIEW SITE">
               Project PROTECH: Pandemic Rapid-response Optimization To Enhance
               Community-resilience and Health
             </Card>
+=======
+          <Card img="/images/articles/placeholder.png" btnText="VIEW SITE">
+            Project PROTECH: Pandemic Rapid-response Optimization To Enhance
+            Community-resilience and Health
+          </Card>
+>>>>>>> 7014def18a1227e13448eee03132b7dfa9032a1f
         </Col>
         <Col xs={12} md={3} className={styles.col}>
           <Card
