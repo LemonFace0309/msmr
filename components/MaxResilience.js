@@ -2,6 +2,7 @@
 import React from 'react'
 import Title from './Title'
 import Button from './shared/Button'
+import TextAndPic from './shared/TextAndPic'
 
 export default function MaxResilience() {
   return (
@@ -14,10 +15,7 @@ export default function MaxResilience() {
         MSMR offers the tool and knowledge to improve in each of these areas.{' '}
       </p>
 
-      <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
-        <img width="50%" src="images/maxres.jpeg" />
-
-        <div className="d-flex flex-column ml-5 py-2">
+      <TextAndPic textWidth={6} imageWidth={6} image="/images/maxres.jpeg" isImageFirst={true}>
           <h2 className="text-warning font-weight-bold">
             {' '}
             Internal Resilience{' '}
@@ -49,8 +47,7 @@ export default function MaxResilience() {
           <Button type="purpleWhite" link="/">
             <p>LEARN MORE</p>
           </Button>
-        </div>
-      </div>
+      </TextAndPic>
     </section>
   )
 }
