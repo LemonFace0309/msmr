@@ -1,6 +1,7 @@
 // @author Charles Liu
 
 import Image from 'next/image'
+import ReactMarkdown from 'react-markdown'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -31,7 +32,7 @@ function Post({ img, title, link, children }) {
         <Col xs={12} md={9} xl={10} className={styles.postContent}>
           <div>
             <h2>{title}</h2>
-            {children}
+            <ReactMarkdown children={children} />
           </div>
           <div className="pb-2">
             <Button type="purpleWhite" link={link}>
