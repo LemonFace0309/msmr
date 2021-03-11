@@ -4,11 +4,11 @@ import { useRouter } from 'next/router'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-import { fetchAPI } from '../lib/api'
-import { getStrapiMedia } from '../lib/media'
-import Banner from '../components/shared/Banner'
-import Post from '../components/FeaturedArticles/Post'
-import styles from '../styles/Featured-Articles.module.css'
+import { fetchAPI } from '../../lib/api'
+import { getStrapiMedia } from '../../lib/media'
+import Banner from '../../components/shared/Banner'
+import Post from '../../components/FeaturedArticles/Post'
+import styles from '../../styles/Featured-Articles.module.css'
 
 function featuredArticles({ posts }) {
   const router = useRouter()
@@ -35,16 +35,6 @@ function featuredArticles({ posts }) {
         title="Featured Articles"
       />
       <Container fluid className={styles.container}>
-        <Row className="w-100">
-          <Post img="/images/portrait.jpg" title="Featured Article 1" link="/">
-            blah blah blah
-          </Post>
-        </Row>
-        <Row className="w-100">
-          <Post img="/images/portrait.jpg" title="Featured Article 2" link="/">
-            blah blah blah
-          </Post>
-        </Row>
         {posts.map((post) => renderPost(post))}
       </Container>
     </div>
