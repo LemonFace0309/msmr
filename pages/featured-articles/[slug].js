@@ -39,7 +39,9 @@ function Article({ article }) {
               </div>
               <div className={styles.authorMeta}>
                 <p>{article.author.name}</p>
-                <Moment className="text-secondary" format="MMM Do YYYY">{article.published_at}</Moment>
+                <Moment className="text-secondary" format="MMM Do YYYY">
+                  {article.published_at}
+                </Moment>
               </div>
             </div>
           </Col>
@@ -48,7 +50,7 @@ function Article({ article }) {
           </Col>
         </Row>
         <Row className="mt-4 py-4">
-            <ReactMarkdown children={article.content}/>
+          <ReactMarkdown children={article.content} />
         </Row>
       </Container>
     </>
