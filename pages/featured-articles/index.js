@@ -35,7 +35,7 @@ function featuredArticles({ posts }) {
         title="Featured Articles"
       />
       <Container fluid className={styles.container}>
-        {posts.map((post) => renderPost(post))}
+        {posts && posts.map((post) => renderPost(post))}
       </Container>
     </div>
   )
