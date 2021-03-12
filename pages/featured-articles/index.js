@@ -43,7 +43,6 @@ function featuredArticles({ posts }) {
 
 export async function getStaticProps() {
   const posts = await fetchAPI('/articles')
-  console.log(posts)
   return {
     props: {
       posts: posts,
