@@ -30,7 +30,6 @@ function Article({ article }) {
           <Col xs={12} md={4} className="p-0">
             <div className={styles.authorContainer}>
               <div className={styles.avatar}>
-                {console.log(article.author.image)}
                 <Image
                   src={getStrapiMedia(article.author.image)}
                   layout="fill"
@@ -45,7 +44,7 @@ function Article({ article }) {
             </div>
           </Col>
           <Col xs={12} md={8} className={styles.socialMedia}>
-            Social Meida Icons
+            Social Media Icons
           </Col>
         </Row>
         <Row className="mt-4 py-4">
