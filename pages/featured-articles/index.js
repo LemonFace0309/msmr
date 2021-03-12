@@ -14,7 +14,7 @@ function featuredArticles({ posts }) {
   const router = useRouter()
 
   const renderPost = (post) => {
-    const url = getStrapiMedia(post.image[0]) // 'http://localhost:8080/uploads/jihyo_852a4651cd.jpg' 
+    const url = getStrapiMedia(post.image[0]) // 'http://localhost:8080/uploads/jihyo_852a4651cd.jpg'
     return (
       <Row className="w-100" key={post.id}>
         <Post
