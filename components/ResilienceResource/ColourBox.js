@@ -28,14 +28,14 @@ function ColourBox({
   if (format === 'points') {
     content = (
       <ul>
-        {points.map((point) => {
-          return <li> {point} </li>
+        {points.map((point, i) => {
+          return <li key={i}> {point} </li>
         })}
       </ul>
     )
   } else if (format === 'paragraphs') {
-    content = points.map((point) => {
-      return <p> {point} </p>
+    content = points.map((point, i) => {
+      return <p key={i}> {point} </p>
     })
   }
 
