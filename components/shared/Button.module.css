@@ -3,6 +3,7 @@
 .container {
   width: 150px;
   height: 45px;
+  margin: 5px 5px;
   border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
   display: flex;
   text-align: center;

@@ -46,9 +46,9 @@ const Contact = () => {
               />
             </Form.Group>
           </Form.Row>
-          <HomeMadeButton type="purpleWhite" link="/">
+          {/* <HomeMadeButton type="purpleWhite" link="/">
             SUBMIT
-          </HomeMadeButton>
+          </HomeMadeButton> */}
         </Form>
       </div>
     </section>

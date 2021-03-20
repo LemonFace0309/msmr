@@ -11,6 +11,24 @@
 }
 
 nav.navbar {
+  height: 65px;
   padding-left: 8%;
   padding-right: 8%;
+}
+
+@media (max-width: 576px) {
+  nav.navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .Brand {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Brand {
+    font-size: 0.8rem;
+  }
 }
