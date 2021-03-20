@@ -1,6 +1,8 @@
-// @author Jimmy Yang
+// @author Jimmy Yang, Charles Liu
 import React from 'react'
 import Title from './Title'
+
+import Instagram from './Instagram'
 
 function NewsAndMedia() {
   return (
@@ -9,9 +11,9 @@ function NewsAndMedia() {
       <div className="row">
         <div
           className="col-12 col-md-7"
-          style={{ width: '700', height: '400px', border: '2px solid black' }}
+          style={{ width: '700', height: '400px', border: '2px solid black', position: 'relative' }}
         >
-          <h1> Instagram </h1>
+          <Instagram />
         </div>
         <div className="col-12 col-md-5">
           <a
