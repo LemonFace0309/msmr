@@ -8,12 +8,13 @@ import Col from 'react-bootstrap/Col'
 
 import styles from '../styles/Instagram.module.css'
 
-function Instagram({ posts }) {
+function Instagram({posts}) {
+
   const renderImage = (idx) => (
     <Link href={posts[idx].url}>
       <a>
         <Image
-          src={posts[idx].image}
+          src={posts[idx].picture_url}
           layout="fill"
           objectFit="cover"
           objectPosition="center center"
@@ -24,7 +25,7 @@ function Instagram({ posts }) {
 
   return (
     <Container fluid className={styles.container}>
-      <Row>
+      <Row className={styles.instagramRow}>
         <Col xs={12} md={4} className={styles.imageContainer}>
           {renderImage(0)}
         </Col>
@@ -59,19 +60,6 @@ function Instagram({ posts }) {
       </Row>
     </Container>
   )
-}
-
-export async function getStaticProps() {
-  const res = await fetch(
-    'https://instagram-rest-soratbesxq-uc.a.run.app/getPost',
-  )
-  const posts = await res.json()['posts']
-
-  return {
-    props: {
-      posts,
-    },
-  }
 }
 
 export default Instagram

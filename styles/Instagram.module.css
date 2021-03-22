@@ -1,9 +1,16 @@
 .container {
   height: 100%;
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: stretch; */
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.instagramRow {
+  height: 200px;
 }
 
 .imageContainer {
