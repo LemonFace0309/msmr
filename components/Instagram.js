@@ -12,7 +12,7 @@ function Instagram({posts}) {
 
   const renderImage = (idx) => (
     <Link href={posts[idx].url}>
-      <a>
+      <a target="_blank">
         <Image
           src={posts[idx].picture_url}
           layout="fill"
@@ -36,7 +36,7 @@ function Instagram({posts}) {
           {renderImage(2)}
         </Col>
       </Row>
-      <Row className="d-none d-md-block">
+      <Row className="d-none d-md-flex">
         <Col xs={12} md={4} className={styles.imageContainer}>
           {renderImage(3)}
         </Col>
@@ -47,7 +47,7 @@ function Instagram({posts}) {
           {renderImage(5)}
         </Col>
       </Row>
-      <Row className="d-none d-md-block">
+      <Row className="d-none d-md-flex">
         <Col xs={12} md={4} className={styles.imageContainer}>
           {renderImage(6)}
         </Col>
