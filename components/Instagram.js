@@ -8,8 +8,7 @@ import Col from 'react-bootstrap/Col'
 
 import styles from '../styles/Instagram.module.css'
 
-function Instagram({posts}) {
-
+function Instagram({ posts }) {
   const renderImage = (idx) => (
     <Link href={posts[idx].url}>
       <a target="_blank">
