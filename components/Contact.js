@@ -4,13 +4,15 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Title from './Title'
 import { Form, Col } from 'react-bootstrap'
-import Flip from 'react-reveal/Flip';
+import Flip from 'react-reveal/Flip'
+import emailjs from 'emailjs-com'
 
 import Success from './shared/Success'
 import styles from '../styles/Contact.module.css'
 
-const Contact = ({name, email, subject, message}) => {
+const Contact = ({ name, email, subject, message }) => {
   const [validated, setValidated] = useState(false)
+  const [showErrorMessages, setShowErrorMessages] = useState(false)
 
   const [contactForm, setContactForm] = useState({
     name: name,
@@ -20,7 +22,7 @@ const Contact = ({name, email, subject, message}) => {
   })
 
   useEffect(() => {
-    const timeout = setTimeout(() => setValidated(false), 2000)
+    const timeout = setTimeout(() => setValidated(false), 4000)
   }, [validated])
 
   const inputChangedHandler = (e, key) => {
@@ -33,12 +35,30 @@ const Contact = ({name, email, subject, message}) => {
   }
 
   const submitHandler = (e) => {
-    const form = e.currentTarget
-    if (form.checkValidity() === false) {
-      e.preventDefault()
-      e.stopPropagation()
+    const form = e.target
+    e.preventDefault()
+    e.stopPropagation()
+
+    if (form.checkValidity()) {
+      emailjs
+        .sendForm(
+          'service_tg1oofj',
+          'template_44vescu',
+          e.target,
+          process.env.NEXT_PUBLIC_EMAILJS_USER_ID,
+        )
+        .then(
+          (result) => {
+            console.log(result.text)
+          },
+          (error) => {
+            console.log(error.text)
+          },
+        )
+      setValidated(true)
+    } else {
+      setShowErrorMessages(true)
     }
-    setValidated(true)
   }
 
   return (
@@ -47,14 +67,19 @@ const Contact = ({name, email, subject, message}) => {
         <Title title="Contact Us" position="middle" />
       </div>
       <div className="px-5 mx-5">
-        {validated ? <Flip top><Success>Succesfully submitted contact form!</Success></Flip> : null}
-        <Form noValidate validated={validated} onSubmit={submitHandler}>
+        {validated ? (
+          <Flip top>
+            <Success>Succesfully submitted contact form!</Success>
+          </Flip>
+        ) : null}
+        <Form noValidate validated={showErrorMessages} onSubmit={submitHandler}>
           <Form.Row>
             <Form.Group as={Col} controlId="formGridName">
               <Form.Control
                 type={contactForm.name.type}
                 placeholder={contactForm.name.placeholder}
                 onChange={(e) => inputChangedHandler(e, 'name')}
+                name="name"
                 value={contactForm.name.value}
                 className={styles.input}
                 required
@@ -68,6 +93,7 @@ const Contact = ({name, email, subject, message}) => {
                 type={contactForm.email.type}
                 placeholder={contactForm.email.placeholder}
                 onChange={(e) => inputChangedHandler(e, 'email')}
+                name="email"
                 value={contactForm.email.value}
                 className={styles.input}
                 required
@@ -83,6 +109,7 @@ const Contact = ({name, email, subject, message}) => {
                 type={contactForm.subject.type}
                 placeholder={contactForm.name.subject}
                 onChange={(e) => inputChangedHandler(e, 'subject')}
+                name="subject"
                 value={contactForm.subject.value}
                 placeholder="Subject"
                 className={styles.input}
@@ -98,6 +125,7 @@ const Contact = ({name, email, subject, message}) => {
                 as={contactForm.message.type}
                 placeholder={contactForm.message.placeholder}
                 onChange={(e) => inputChangedHandler(e, 'message')}
+                name="message"
                 value={contactForm.message.value}
                 rows={5}
                 className={styles.input}
