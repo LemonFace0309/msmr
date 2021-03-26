@@ -4,6 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import Title from './Title'
 import { Form, Col } from 'react-bootstrap'
+import Flip from 'react-reveal/Flip';
 
 import Success from './shared/Success'
 import styles from '../styles/Contact.module.css'
@@ -42,7 +43,7 @@ const Contact = ({name, email, subject, message}) => {
         <Title title="Contact Us" position="middle" />
       </div>
       <div className="px-5 mx-5">
-        {validated ? <Success>Succesfully submitted contact form!</Success> : null}
+        {validated ? <Flip top><Success>Succesfully submitted contact form!</Success></Flip> : null}
         <Form noValidate validated={validated} onSubmit={submitHandler}>
           <Form.Row>
             <Form.Group as={Col} controlId="formGridName">
