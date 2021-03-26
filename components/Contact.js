@@ -1,7 +1,7 @@
 // @author William Shi, Charles Liu
 
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Title from './Title'
 import { Form, Col } from 'react-bootstrap'
 import Flip from 'react-reveal/Flip';
@@ -18,6 +18,10 @@ const Contact = ({name, email, subject, message}) => {
     subject: subject,
     message: message,
   })
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setValidated(false), 2000)
+  }, [validated])
 
   const inputChangedHandler = (e, key) => {
     const updatedContactForm = { ...contactForm }
