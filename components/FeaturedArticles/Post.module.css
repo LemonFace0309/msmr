@@ -1,0 +1,16 @@
+/* @author Charles Liu */
+
+.postContainer {
+  width: 100%;
+}
+
+.postRow {
+  margin: 25px 0px;
+  min-height: 300px;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
