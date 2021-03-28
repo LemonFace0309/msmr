@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "emailjs-com": "^2.6.4",
     "moment": "^2.29.1",
     "next": "10.0.6",
     "react": "17.0.1",
