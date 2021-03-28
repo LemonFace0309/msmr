@@ -14,9 +14,8 @@
   position: absolute;
   bottom: -10px;
   border-radius: 10px;
-  background-color: steelblue;
+  background-color: rgb(149, 169, 239);
 }
-
 
 .TitleStart::after {
   left: 0;
