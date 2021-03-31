@@ -136,6 +136,7 @@ const Contact = ({ name, email, subject, message }) => {
               </Form.Control.Feedback>
             </Form.Group>
           </Form.Row>
+
           <button type="submit" className={styles.submitButton}>
             SUBMIT
           </button>

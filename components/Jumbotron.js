@@ -7,7 +7,7 @@ const Jumbo = () => {
     <Jumbotron fluid className="py-5" id={JumboStyles.imageHolder}>
       <div>
         <Container className="py-5">
-          <h1 className="text-center py-5 font-weight-bold text-white">
+          <h1 className={JumboStyles.Text}>
             Resilience involves internal issues such as one’s ability to care
             for themselves and have emotional control. It means having the
             ability to cope with everyday challenges, and knowing how to access

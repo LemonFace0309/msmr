@@ -4,3 +4,16 @@
   background-size: cover;
   background-position: center;
 }
+
+.Text {
+  text-align: center;
+  padding: 1.2rem 0;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .Text {
+    font-size: 25px;
+  }
+}
