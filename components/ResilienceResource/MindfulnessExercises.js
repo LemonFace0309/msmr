@@ -23,8 +23,6 @@ function MindfulnessExercises({ exercises }) {
               points={box.points}
               foreground={exercises.foreground}
               background={exercises.background}
-              width={exercises.width}
-              height={exercises.height}
               margin={exercises.margin}
               format={exercises.format}
             />
@@ -52,8 +50,6 @@ MindfulnessExercises.defaultProps = {
   exercises: {
     foreground: '#95A9EF',
     background: 'white',
-    width: 450,
-    height: 200,
     margin: 0,
     format: 'paragraphs',
     boxes: [

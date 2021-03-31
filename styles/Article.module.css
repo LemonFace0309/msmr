@@ -1,0 +1,30 @@
+/* @author Charles Liu */
+
+.authorContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 20%;
+  height: 0px;
+  padding-bottom: 20%;
+  margin-right: 15px;
+}
+
+.authorMeta > p {
+  margin: 0;
+}
+
+.socialMedia {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
