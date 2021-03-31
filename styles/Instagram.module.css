@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.container > * {
+  height: 100%;
 }
 
 .imageContainer {
