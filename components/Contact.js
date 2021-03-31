@@ -62,11 +62,11 @@ const Contact = ({ name, email, subject, message }) => {
   }
 
   return (
-    <section className="px-5 mx-5">
+    <section id="contact" className="px-md-5 mx-md-5">
       <div className="row justify-content-center">
         <Title title="Contact Us" position="middle" />
       </div>
-      <div className="px-5 mx-5">
+      <div className="px-md-5 mx-5">
         {validated ? (
           <Flip top>
             <Success>Succesfully submitted contact form!</Success>
@@ -136,10 +136,11 @@ const Contact = ({ name, email, subject, message }) => {
               </Form.Control.Feedback>
             </Form.Group>
           </Form.Row>
-
-          <button type="submit" className={styles.submitButton}>
-            SUBMIT
-          </button>
+          <div className={styles.buttonContainer}>
+            <button type="submit" className={styles.submitButton}>
+              SUBMIT
+            </button>
+          </div>
         </Form>
       </div>
     </section>
