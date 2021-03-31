@@ -33,40 +33,6 @@ function Instagram({ posts }) {
       <div className={styles.imageContainer}> {renderImage(6)}</div>
       <div className={styles.imageContainer}> {renderImage(7)}</div>
       <div className={styles.imageContainer}> {renderImage(8)}</div>
-
-      {/* <Row className={styles.instagramRow}>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(0)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(1)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(2)}
-        </Col>
-      </Row>
-      <Row className="d-none d-md-flex">
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(3)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(4)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(5)}
-        </Col>
-      </Row>
-      <Row className="d-none d-md-flex">
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(6)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(7)}
-        </Col>
-        <Col xs={12} md={4} className={styles.imageContainer}>
-          {renderImage(8)}
-        </Col>
-      </Row> */}
     </Container>
   )
 }
