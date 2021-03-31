@@ -6,7 +6,10 @@ import Instagram from './Instagram'
 
 function NewsAndMedia({ posts }) {
   return (
-    <section id="media" className="container py-5 d-flex flex-column justify-content-center align-items-center">
+    <section
+      id="media"
+      className="container py-5 d-flex flex-column justify-content-center align-items-center"
+    >
       <Title title="News and Media" position="middle" />
       <div className="row">
         <div
