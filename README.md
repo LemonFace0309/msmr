@@ -46,9 +46,13 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Contact
 Charles Liu - c.liu@cacheandcookies.ca
+
 Jimmy Yang - j.yang@cacheandcookies.ca
+
 Oren Leung - o.leung@cacheandcookies.ca
+
 Phillip Chen
+
 William Li
 
 ---
