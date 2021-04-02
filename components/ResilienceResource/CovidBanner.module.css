@@ -1,18 +1,18 @@
 .CovidBanner {
-	background-color: #95a9ef;
-	padding: 10px 20px;
+  background-color: #95a9ef;
+  padding: 10px 20px;
 }
 
 .CovidBanner h1 {
-	font-size: 40px;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin: 10px 60px;
-	color: white;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 60px;
+  color: white;
 }
 
 .CovidBanner p {
-	color: white;
-	text-align: center;
+  color: white;
+  text-align: center;
 }
