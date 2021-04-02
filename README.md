@@ -21,9 +21,9 @@ The MSMR digital application provides an opportunity for users to engage and lea
      <td>Canadian Psychological Association</td>
   </tr>
   <tr>
-    <td><img src="https://msmr-blue.vercel.app/images/sponsors/Ryerson.jpg" width=270 height=480></td>
-    <td><img src="https://msmr-blue.vercel.app/images/sponsors/RBC.png" width=270 height=480></td>
-    <td><img src="https://msmr-blue.vercel.app/images/sponsors/CPA.jpg" width=270 height=480></td>
+    <td><img src="https://msmr-blue.vercel.app/images/sponsors/Ryerson.jpg" width=200></td>
+    <td><img src="https://msmr-blue.vercel.app/images/sponsors/RBC.png" width=200 ></td>
+    <td><img src="https://msmr-blue.vercel.app/images/sponsors/CPA.jpg" width=200 ></td>
   </tr>
  </table>
 
