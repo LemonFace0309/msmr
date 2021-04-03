@@ -9,7 +9,6 @@ function CovidBanner() {
       <TextAndPic textWidth={6} imageWidth={6} image="/images/covidbanner.png">
         <h1> RESILIENCE DURING COVID-19 </h1>
         <p>
-          {' '}
           Amidst the COVID-19 pandemic, and during moments of uncertainty,
           change, and distress, it is important to take care of our mental
           health and maintain our resiliency. The Multi-System Model of

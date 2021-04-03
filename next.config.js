@@ -1,8 +1,5 @@
 module.exports = {
   images: {
-<<<<<<< HEAD
-    domains: ['localhost', '35.182.254.224'],
-=======
     domains: [
       'localhost',
       '35.182.254.224',
@@ -13,6 +10,5 @@ module.exports = {
       'instagram.fymy1-1.fna.fbcdn.net',
       'instagram.fybz2-1.fna.fbcdn.net',
     ],
->>>>>>> 5939fc973adf334a9b37f588fb5c548040ed441d
   },
 }

@@ -10,10 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
-<<<<<<< HEAD
-=======
     "emailjs-com": "^2.6.4",
->>>>>>> 5939fc973adf334a9b37f588fb5c548040ed441d
     "moment": "^2.29.1",
     "next": "10.0.6",
     "react": "17.0.1",
@@ -21,10 +18,7 @@
     "react-dom": "17.0.1",
     "react-markdown": "^5.0.3",
     "react-moment": "^1.1.1",
-<<<<<<< HEAD
-=======
     "react-multi-carousel": "^2.6.2",
->>>>>>> 5939fc973adf334a9b37f588fb5c548040ed441d
     "react-reveal": "^1.2.2"
   },
   "devDependencies": {
