@@ -9,7 +9,7 @@ function ColourBoxSection({ sections }) {
     <>
       {sections.map((section) => {
         return (
-          <div key={section.header.title}>
+          <div className="container" key={section.header.title}>
             <ColourTitle
               title={section.header.title}
               description={section.header.description}
@@ -25,8 +25,6 @@ function ColourBoxSection({ sections }) {
                     points={box.points}
                     foreground={section.content.foreground}
                     background={section.content.background}
-                    width={section.content.width}
-                    height={section.content.height}
                     margin={section.content.margin}
                     format={section.content.format}
                   />
@@ -53,8 +51,6 @@ ColourBoxSection.defaultProps = {
       content: {
         foreground: 'black',
         background: '#FCAC4B',
-        width: 450,
-        height: 210,
         margin: 10,
         format: 'points',
         boxes: [
@@ -95,8 +91,6 @@ ColourBoxSection.defaultProps = {
       content: {
         foreground: '#95A9EF',
         background: 'white',
-        width: 450,
-        height: 250,
         margin: 10,
         format: 'points',
         boxes: [
@@ -141,8 +135,6 @@ ColourBoxSection.defaultProps = {
       content: {
         foreground: 'lightblue',
         background: '#7AF0F7',
-        width: 500,
-        height: 200,
         margin: 0,
         format: 'points',
         boxes: [

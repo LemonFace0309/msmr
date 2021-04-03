@@ -16,3 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media (max-width: 576px) {
+  body {
+    padding-top: 40px;
+  }
+}

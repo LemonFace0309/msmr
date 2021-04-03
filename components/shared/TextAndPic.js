@@ -26,7 +26,7 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
         <Col xs={12} md={textWidth}>
           <Fade bottom>{children}</Fade>
         </Col>
-        <Col xs={imageOrder} md={imageWidth}>
+        <Col className="justify-content-center" xs={imageOrder} md={imageWidth}>
           <Fade bottom>
             <div className={styles.ImageWrapper}>
               <Image
