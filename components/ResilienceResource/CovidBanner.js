@@ -6,8 +6,8 @@ import styles from './CovidBanner.module.css'
 function CovidBanner() {
   return (
     <div className={styles.CovidBanner}>
-      <h1> RESILIENCE DURING COVID-19 </h1>
       <TextAndPic textWidth={6} imageWidth={6} image="/images/covidbanner.png">
+        <h1> RESILIENCE DURING COVID-19 </h1>
         <p>
           {' '}
           Amidst the COVID-19 pandemic, and during moments of uncertainty,

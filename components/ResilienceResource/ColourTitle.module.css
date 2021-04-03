@@ -1,7 +1,7 @@
 .ColourTitle {
   min-height: 150px;
+  width: 100%;
   padding: 20px 20px 5px;
-  margin: 0px 100px;
 }
 
 .ColourTitle h1 {

@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'next/image'
+import Fade from 'react-reveal'
 
 import styles from './TextAndPic.module.css'
 
@@ -23,17 +24,19 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
     <Container fluid className={styles.Container}>
       <Row className={styles.Row}>
         <Col xs={12} md={textWidth}>
-          {children}
+          <Fade bottom>{children}</Fade>
         </Col>
         <Col xs={imageOrder} md={imageWidth}>
-          <div className={styles.ImageWrapper}>
-            <Image
-              src={image}
-              layout="fill"
-              objectFit="contain"
-              objectPosition="center center"
-            />
-          </div>
+          <Fade bottom>
+            <div className={styles.ImageWrapper}>
+              <Image
+                src={image}
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center center"
+              />
+            </div>
+          </Fade>
         </Col>
       </Row>
     </Container>

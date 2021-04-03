@@ -1,4 +1,5 @@
 // @author William Shi
+// revised @Charles Liu 2021-02-25 - added btnText prop
 
 import Button from './Button'
 import { Card } from 'react-bootstrap'
@@ -14,9 +15,13 @@ import styles from './Card.module.css'
  * "read more" button
  * @param {String} title - is the title of the card
  * @param {String} img - the link to the image
+ * @param {String} btnText - inner text for button
  * @param {React.Component} children - is the paragraph text
  */
-function AppCard({ title, img, children }) {
+function AppCard({ title, img, children, btnText }) {
+  btnText = btnText ? btnText : 'READ MORE'
+  title = title ? <Card.Title>{title}</Card.Title> : null
+
   return (
     <Card style={{ width: '20rem' }} className="shadow-sm">
       <div className={styles.imageSize}>
@@ -29,12 +34,14 @@ function AppCard({ title, img, children }) {
         />
       </div>
       <Card.Body className="text-center">
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{children}</Card.Text>
-        <div className="d-flex justify-content-center">
-          <Button type="purpleWhite" link="/">
-            <p>READ MORE</p>
-          </Button>
+        <div className={styles.cardTextContainer}>
+          {title}
+          <Card.Text>{children}</Card.Text>
+          <div className="d-flex justify-content-center">
+            <Button type="purpleWhite" link="/">
+              <p>{btnText}</p>
+            </Button>
+          </div>
         </div>
       </Card.Body>
     </Card>

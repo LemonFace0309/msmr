@@ -21,12 +21,12 @@
 @media (max-width: 768px) {
   .ImageWrapper {
     margin: 0;
-    height: 60vh;
+    /* height: 60vh; */
     width: 80vw;
     position: relative;
     margin: 10px 0px 30px 0px;
     top: 0px;
-    left: 50%;
+    left: 5%;
     transform: translateX(-50%);
   }
 }

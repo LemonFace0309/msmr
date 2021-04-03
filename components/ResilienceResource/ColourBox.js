@@ -14,28 +14,19 @@ import styles from './ColourBox.module.css'
  * @param {margin} - px margin of each box
  * @param {format} - one of ['points', 'paragraphs']
  */
-function ColourBox({
-  title,
-  points,
-  foreground,
-  background,
-  width,
-  height,
-  margin,
-  format,
-}) {
+function ColourBox({ title, points, foreground, background, margin, format }) {
   let content
   if (format === 'points') {
     content = (
       <ul>
-        {points.map((point) => {
-          return <li> {point} </li>
+        {points.map((point, i) => {
+          return <li key={i}> {point} </li>
         })}
       </ul>
     )
   } else if (format === 'paragraphs') {
-    content = points.map((point) => {
-      return <p> {point} </p>
+    content = points.map((point, i) => {
+      return <p key={i}> {point} </p>
     })
   }
 
@@ -43,8 +34,6 @@ function ColourBox({
     <div
       style={{
         backgroundColor: background,
-        width: width,
-        height: height,
         margin: `5px ${margin}px`,
       }}
       className={styles.ColourBox}
