@@ -1,6 +1,7 @@
 # Multi-System Model of Resilience (MSMR) Website
 
 ---
+
 ![About Screenshot](./docs/images/about_screenshot.png)
 
 ![Resilence Screenshot](./docs/images/resilence_screenshot.png)
@@ -8,12 +9,15 @@
 ---
 
 ## About
+
 The Multi-System Model of Resilience (MSMR) is a copyright-protected and empirically-validated, multi-dimensional model and measure of resilience capacity across different areas in your life.
 
 The MSMR digital application provides an opportunity for users to engage and learn about their personal resilience capacity - where they stand, and how they can improve their resilience.
 
 ---
+
 ## Sponsors of Multi-System Model of Resilience Research
+
 <table>
   <tr>
     <td>Ryerson University</td>
@@ -28,6 +32,7 @@ The MSMR digital application provides an opportunity for users to engage and lea
  </table>
 
 ---
+
 ## Getting Started
 
 First, run the development server:
@@ -45,6 +50,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ---
 
 ## Contact
+
 Charles Liu - c.liu@cacheandcookies.ca
 
 Jimmy Yang - j.yang@cacheandcookies.ca
