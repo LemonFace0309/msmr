@@ -10,16 +10,16 @@ const Footer = () => {
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
           <p className="text-center">© 2019-{date.getFullYear()} MSMR Tool</p>
           <div className={styles.Icons}>
-            <a href="https://twitter.com/resilient_u">
+            <a target="_blank" href="https://twitter.com/resilient_u">
               <i className="mx-2 fab fa-twitter"></i>
             </a>
-            <a href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/">
+            <a target="_blank" href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/">
               <i className="mx-2 fab fa-linkedin-in"></i>
             </a>
-            <a href="https://www.instagram.com/resilient.u/">
+            <a target="_blank" href="https://www.instagram.com/resilient.u/">
               <i className="mx-2 fab fa-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/RUResilient">
+            <a target="_blank" href="https://www.facebook.com/RUResilient">
               <i className="mx-2 fab fa-facebook-f"></i>
             </a>
           </div>
