@@ -4,6 +4,7 @@
   position: relative;
   width: fit-content;
   margin: 25px 0px;
+  text-align: center;
 }
 
 .TitleStart::after,

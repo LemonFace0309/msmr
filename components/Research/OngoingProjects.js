@@ -6,17 +6,20 @@ import Col from 'react-bootstrap/Col'
 
 import styles from './OngoingProjects.module.css'
 import Card from '../shared/Card'
+import Title from '../Title'
 
 function OngoingProjects() {
   return (
     <Container fluid className={styles.container}>
       <Row>
         <Col xs={12} className={styles.col}>
-          <h2>Ongoing Projects</h2>
-          <h6 className="pb-4">
-            The following projects are using the MSMR and MSMR-I in the capacity
-            to assess and track resilience over time:
-          </h6>
+          <div className="container py-5 d-flex flex-column justify-content-center align-items-center">
+            <Title title="Ongoing Projects" position="middle" />
+            <p className="text-center ">
+              The following projects are using the MSMR and MSMR-I in the
+              capacity to assess and track resilience over time:
+            </p>
+          </div>
         </Col>
       </Row>
       <Row>
