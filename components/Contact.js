@@ -62,7 +62,7 @@ const Contact = ({ name, email, subject, message }) => {
   }
 
   return (
-    <section id="contact" className="px-md-5 mx-md-5">
+    <section id="contact" className="container">
       <div className="row justify-content-center">
         <Title title="Contact Us" position="middle" />
       </div>
