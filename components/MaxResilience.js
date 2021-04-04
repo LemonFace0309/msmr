@@ -6,7 +6,7 @@ import TextAndPic from './shared/TextAndPic'
 
 export default function MaxResilience() {
   return (
-    <section className="container py-5 d-flex flex-column justify-content-center align-items-center">
+    <section className="container py-md-5 d-flex flex-column justify-content-center align-items-center">
       <Title title="Maximizing Resilience" position="middle" />
       <p className="text-center ">
         {' '}
@@ -21,26 +21,35 @@ export default function MaxResilience() {
         image="/images/maxres.jpeg"
         isImageFirst={true}
       >
-        <h2 className="text-warning font-weight-bold"> Internal Resilience </h2>
-        <p>
-          {' '}
-          The ability to take care of yourself. This means identifying and
-          prioritizing mental health and physical health.{' '}
-        </p>
+        <div className="py-5 py-md-0">
+          <h2 className="text-warning font-weight-bold">
+            {' '}
+            Internal Resilience{' '}
+          </h2>
+          <p>
+            {' '}
+            The ability to take care of yourself. This means identifying and
+            prioritizing mental health and physical health.{' '}
+          </p>
 
-        <h2 className="text-primary font-weight-bold"> Coping Pursuits </h2>
-        <p>
-          {' '}
-          The ability to address everyday challenges and goals. This means
-          identifying strengths, exploring and learning from new opportunities.{' '}
-        </p>
+          <h2 className="text-primary font-weight-bold"> Coping Pursuits </h2>
+          <p>
+            {' '}
+            The ability to address everyday challenges and goals. This means
+            identifying strengths, exploring and learning from new
+            opportunities.{' '}
+          </p>
 
-        <h2 className="text-success font-weight-bold"> External Resilience </h2>
-        <p>
-          {' '}
-          The ability to define your role within your community. Being active in
-          your community can help create your own identity.{' '}
-        </p>
+          <h2 className="text-success font-weight-bold">
+            {' '}
+            External Resilience{' '}
+          </h2>
+          <p>
+            {' '}
+            The ability to define your role within your community. Being active
+            in your community can help create your own identity.{' '}
+          </p>
+        </div>
 
         <Button type="purpleWhite" link="/">
           <p>LEARN MORE</p>

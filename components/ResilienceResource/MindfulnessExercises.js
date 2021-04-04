@@ -5,8 +5,12 @@ import ColourBoxContainer from './ColourBoxContainer'
 import styles from './MindfulnessExercises.module.css'
 
 function MindfulnessExercises({ exercises }) {
+  let classStyles = [];
+  classStyles.push(styles.MindfulnessExercises)
+  classStyles.push("container")
+  classStyles = classStyles.join(' ')
   return (
-    <div className={styles.MindfulnessExercises}>
+    <div className={classStyles}>
       <h1>
         {' '}
         The following mindfulness exercises may be useful, and were produced for

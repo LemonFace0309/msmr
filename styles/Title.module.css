@@ -25,3 +25,9 @@
 .TitleMiddle::after {
   left: calc(50% - 50px);
 }
+
+@media (max-width: 992px) {
+  .TitleStart::after {
+    left: calc(50% - 50px);
+  }
+}
