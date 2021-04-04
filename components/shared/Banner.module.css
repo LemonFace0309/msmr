@@ -6,11 +6,6 @@
   position: relative;
 }
 
-@media (max-width: 480px) {
-  .container {
-    height: 40vh;
-  }
-}
 
 .overlay {
   width: 100%;
@@ -39,4 +34,13 @@
 .title > h1 {
   font-weight: bold;
   font-size: 3rem;
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 40vh;
+  }
+  .title > h1 {
+    font-size: 2rem;
+  }
 }
