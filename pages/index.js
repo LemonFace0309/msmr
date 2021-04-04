@@ -20,7 +20,7 @@ export default function Home({ articles, posts }) {
       <NewsAndMedia posts={posts} />
       <Articles cards={articles} />
       <Sponsors />
-      <Contact />
+      {/* <Contact /> */}
     </>
   )
 }

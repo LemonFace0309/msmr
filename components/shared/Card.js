@@ -23,7 +23,7 @@ function AppCard({ title, img, children, btnText }) {
   title = title ? <Card.Title>{title}</Card.Title> : null
 
   return (
-    <Card style={{ width: '20rem' }} className="shadow-sm">
+    <Card style={{ maxWidth: '18rem' }} className="shadow-sm h-100">
       <div className={styles.imageSize}>
         <Image
           src={img}
