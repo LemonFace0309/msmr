@@ -13,7 +13,10 @@ const Footer = () => {
             <a target="_blank" href="https://twitter.com/resilient_u">
               <i className="mx-2 fab fa-twitter"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/"
+            >
               <i className="mx-2 fab fa-linkedin-in"></i>
             </a>
             <a target="_blank" href="https://www.instagram.com/resilient.u/">
