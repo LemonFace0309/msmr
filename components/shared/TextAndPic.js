@@ -21,7 +21,7 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
   const imageOrder = isImageFirst ? { span: 12, order: 'first' } : 12
 
   return (
-    <Container fluid className={styles.Container}>
+    <Container className={styles.Container}>
       <Row className={styles.Row}>
         <Col xs={12} md={textWidth}>
           <Fade bottom>{children}</Fade>
