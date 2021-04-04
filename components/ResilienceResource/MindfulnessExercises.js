@@ -5,9 +5,9 @@ import ColourBoxContainer from './ColourBoxContainer'
 import styles from './MindfulnessExercises.module.css'
 
 function MindfulnessExercises({ exercises }) {
-  let classStyles = [];
+  let classStyles = []
   classStyles.push(styles.MindfulnessExercises)
-  classStyles.push("container")
+  classStyles.push('container')
   classStyles = classStyles.join(' ')
   return (
     <div className={classStyles}>

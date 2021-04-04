@@ -21,13 +21,13 @@
 }
 
 .purpleWhite,
- .whitePurple {
-   transition: 100ms ease-in;
- }
+.whitePurple {
+  transition: 100ms ease-in;
+}
 
- .purpleWhite:hover,
- .whitePurple:hover {
-   transform: translateY(-3%);
+.purpleWhite:hover,
+.whitePurple:hover {
+  transform: translateY(-3%);
 }
 
 .purpleWhite {
