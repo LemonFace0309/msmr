@@ -8,11 +8,13 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  margin: 10px 60px;
+  /* margin: 10px 60px; */
   color: white;
+  word-wrap: break-word;
 }
 
 .CovidBanner p {
   color: white;
   text-align: center;
+  word-wrap: break-word;
 }

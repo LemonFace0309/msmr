@@ -16,7 +16,7 @@ function CovidBanner() {
           project to support the Chinese-Canadian and affected communities. To
           learn more and receive personalized suggestions for increasing
           resilience capacity in English, Chinese-Simplified, and
-          Chinese-Traditional, visit our Project PROTECH website: <br />{' '}
+          Chinese-Traditional, visit our Project PROTECH website:
           https://projectprotech.ca/test/resilience/.{' '}
         </p>
       </TextAndPic>
