@@ -35,6 +35,7 @@ function featuredArticles({ posts }) {
         title="Featured Articles"
       />
       <Container fluid className={styles.container}>
+        {console.log('posts', posts)}
         {posts && posts.map((post) => renderPost(post))}
       </Container>
     </div>
