@@ -36,9 +36,7 @@ function research() {
             scale scored on a 4-point Likert-type measure.
           </p>
         </TextAndPic>
-        <TextAndPic
-          textWidth={12}
-        >
+        <TextAndPic textWidth={12}>
           <p>
             We have conducted studies to validate and examine the factor
             structure and psychometric properties of MSMR-I in several
