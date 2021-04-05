@@ -7,16 +7,19 @@ const Footer = () => {
     <footer className="row px-5 mx-5 py-5">
       <div className="container">
         <div className="float-right">
-          <a>
+          <a href="https://twitter.com/resilient_u" target="_blank">
             <img className={styles.icon} src="/icons/Twitter.png"></img>
           </a>
-          <a>
+          <a
+            href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/"
+            target="_blank"
+          >
             <img className={styles.icon} src="/icons/Linkedin.png"></img>
           </a>
-          <a>
+          <a href="https://www.instagram.com/resilient.u/" target="_blank">
             <img className={styles.icon} src="/icons/Instagram.png"></img>
           </a>
-          <a>
+          <a href="https://www.facebook.com/RUResilient" target="_blank">
             <img className={styles.icon} src="/icons/Facebook.png"></img>
           </a>
         </div>
