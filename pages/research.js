@@ -5,7 +5,6 @@ import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 import OngoingProjects from '../components/Research/OngoingProjects'
 import Publications from '../components/Research/Publications'
-import Title from '../components/Title'
 
 function research() {
   return (
@@ -20,7 +19,7 @@ function research() {
           imageWidth={6}
           image="/images/resilience modal.jpg"
         >
-          <Title title="Model Development" position="start" />
+          <h2> Model Development </h2>
           <p>
             The Multi-System Model of Resilience (MSMR) conceptualizes
             resilience as a multidimensional capacity to respond to challenges
