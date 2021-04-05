@@ -10,7 +10,10 @@ const Footer = () => {
           <a href="https://twitter.com/resilient_u" target="_blank">
             <img className={styles.icon} src="/icons/Twitter.png"></img>
           </a>
-          <a href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jenny-jw-liu-a7604846/"
+            target="_blank"
+          >
             <img className={styles.icon} src="/icons/Linkedin.png"></img>
           </a>
           <a href="https://www.instagram.com/resilient.u/" target="_blank">
