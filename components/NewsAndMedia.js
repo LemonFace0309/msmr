@@ -1,26 +1,17 @@
-// @author Jimmy Yang, Charles Liu
+// @author Jimmy Yang
 import React from 'react'
 import Title from './Title'
 
-import Instagram from './Instagram'
-
-function NewsAndMedia({ posts }) {
+function NewsAndMedia() {
   return (
     <section className="container py-5 d-flex flex-column justify-content-center align-items-center">
       <Title title="News and Media" position="middle" />
       <div className="row">
         <div
           className="col-12 col-md-7"
-          style={{
-            width: '700',
-            height: '400px',
-            border: '2px solid black',
-            position: 'relative',
-            margin: '0px',
-            padding: '0px',
-          }}
+          style={{ width: '700', height: '400px', border: '2px solid black' }}
         >
-          <Instagram posts={posts} />
+          <h1> Instagram </h1>
         </div>
         <div className="col-12 col-md-5">
           <a

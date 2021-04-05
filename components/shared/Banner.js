@@ -4,11 +4,12 @@ import Image from 'next/image'
 
 import styles from './Banner.module.css'
 
+
 /**
  * Creates a banner component
  * @param {string} url - is the url source of the image
- * @param {string} title - title of the banner
- */
+ * @param {string} title - title of the banner 
+ */ 
 function Banner({ url, title }) {
   return (
     <div className={styles.container}>

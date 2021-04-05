@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Card from './shared/Card'
-import Title from './Title'
 
 const Articles = ({ cards }) => {
   const articles = Object.keys(cards).map((card, i) => (
@@ -15,8 +14,8 @@ const Articles = ({ cards }) => {
 
   return (
     <>
-      <div className="d-flex justify-content-center">
-        <Title title="Articles" position="middle" />
+      <div className="text-center">
+        <h2 className="font-weight-bold">Articles</h2>
       </div>
       <div className="row mx-auto justify-content-center">{articles}</div>
     </>

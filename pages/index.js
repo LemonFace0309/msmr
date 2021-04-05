@@ -6,10 +6,8 @@ import AboutMSMR from '../components/AboutMSMR'
 import Articles from '../components/Articles'
 import NewsAndMedia from '../components/NewsAndMedia'
 import ResearchingResilience from '../components/ResearchingResilience'
-import Sponsors from '../components/Sponsors'
-import Contact from '../components/Contact'
 
-export default function Home({ articles, posts }) {
+export default function Home({ articles }) {
   return (
     <>
       <Landing />
@@ -17,10 +15,8 @@ export default function Home({ articles, posts }) {
       <AboutMSMR />
       <MaxResilience />
       <ResearchingResilience />
-      <NewsAndMedia posts={posts} />
+      <NewsAndMedia />
       <Articles cards={articles} />
-      <Sponsors />
-      <Contact />
     </>
   )
 }
@@ -46,18 +42,4 @@ Home.defaultProps = {
         'Dr. Jenny Liu’s work is featured at the Society of Clinical Psychology. A small excerpt from her article is quoted below...',
     },
   },
-}
-
-export async function getStaticProps() {
-  const res = await fetch(
-    'https://instagram-rest-soratbesxq-uc.a.run.app/getMockPost',
-  )
-  const data = await res.json()
-  const posts = data.posts
-
-  return {
-    props: {
-      posts,
-    },
-  }
 }

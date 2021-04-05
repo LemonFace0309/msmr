@@ -4,13 +4,14 @@ import Link from 'next/link'
 
 import styles from './Button.module.css'
 
+
 /**
  * Creates a banner component
  * @param {string} type - type == 'purpleWhite' || type == 'whitePurple. Colour order reflects background colour -> text colour.
  * @param {string} link - link to target designation
  * @param {React.Component} children - children element
- */
-function Button({ type, link, children }) {
+ */ 
+function Button({type, link, children}) {
   let classes = [styles.container]
 
   if (type == 'purpleWhite') {
@@ -23,7 +24,9 @@ function Button({ type, link, children }) {
   return (
     <Link href={link}>
       <a className={styles.link}>
-        <div className={classes}>{children}</div>
+        <div className={classes}>
+          {children}
+        </div>
       </a>
     </Link>
   )
