@@ -26,18 +26,24 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
         <Col xs={12} md={textWidth}>
           <Fade bottom>{children}</Fade>
         </Col>
-        <Col className="justify-content-center" xs={imageOrder} md={imageWidth}>
-          <Fade bottom>
-            <div className={styles.ImageWrapper}>
-              <Image
-                src={image}
-                layout="fill"
-                objectFit="contain"
-                objectPosition="center center"
-              />
-            </div>
-          </Fade>
-        </Col>
+        {image && (
+          <Col
+            className="justify-content-center"
+            xs={imageOrder}
+            md={imageWidth}
+          >
+            <Fade bottom>
+              <div className={styles.ImageWrapper}>
+                <Image
+                  src={image}
+                  layout="fill"
+                  objectFit="contain"
+                  objectPosition="center center"
+                />
+              </div>
+            </Fade>
+          </Col>
+        )}
       </Row>
     </Container>
   )
