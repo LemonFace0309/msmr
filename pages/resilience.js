@@ -17,7 +17,7 @@ function resilience() {
         imageWidth={6}
         image="/images/resilience_resources.png"
       >
-        <div style={{ padding: '200px 0' }}>
+        <div className="p-1 p-md-5">
           <h2>Maximizing Your Resilience</h2>
           <p className="text-justify">
             There are multiple areas from which we draw our resilience. These

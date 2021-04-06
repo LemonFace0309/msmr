@@ -20,6 +20,16 @@
   text-decoration: none;
 }
 
+.purpleWhite,
+.whitePurple {
+  transition: 100ms ease-in;
+}
+
+.purpleWhite:hover,
+.whitePurple:hover {
+  transform: translateY(-3%);
+}
+
 .purpleWhite {
   background-color: #55679b;
   color: white;
@@ -27,15 +37,15 @@
 }
 
 .purpleWhite:hover {
-  background-color: #506091;
+  background-color: #45527a;
 }
 
 .whitePurple {
   background-color: white;
   color: #55679b;
-  box-shadow: 1px 2px 4px rgb(196, 196, 196);
+  box-shadow: 3px 3px 4px rgb(196, 196, 196);
 }
 
 .whitePurple:hover {
-  background-color: rgb(253, 253, 253);
+  background-color: #efefef;
 }
