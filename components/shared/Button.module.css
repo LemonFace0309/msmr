@@ -11,7 +11,7 @@
 }
 
 .container > * {
-  transform: translateY(35%);
+  transform: translateY(40%);
   font-size: smaller;
 }
 
