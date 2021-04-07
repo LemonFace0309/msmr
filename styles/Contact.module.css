@@ -3,3 +3,31 @@
   border-radius: 0;
   border-bottom: 1px solid grey;
 }
+
+.input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  width: 150px;
+  height: 45px;
+  border: 0px;
+  border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #55679b;
+  color: white;
+  box-shadow: 1px 2px 4px #95a9ef;
+}
+
+.submitButton:hover {
+  background-color: #506091;
+}

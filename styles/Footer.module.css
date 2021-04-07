@@ -3,3 +3,11 @@
   height: 25px;
   margin-left: 10px;
 }
+
+.Icons i {
+  color: black;
+}
+
+.Icons i:hover {
+  color: blue;
+}

@@ -13,13 +13,13 @@ function research() {
         url="/images/iphone_background_landscape.png"
         title="Research and Publications"
       />
-      <TextAndPic
-        textWidth={6}
-        imageWidth={6}
-        image="/images/resilience modal.jpg"
-      >
-        <div className={styles.textContainer}>
-          <h2>Model Development</h2>
+      <div className="container">
+        <TextAndPic
+          textWidth={6}
+          imageWidth={6}
+          image="/images/resilience modal.jpg"
+        >
+          <h2> Model Development </h2>
           <p>
             The Multi-System Model of Resilience (MSMR) conceptualizes
             resilience as a multidimensional capacity to respond to challenges
@@ -35,6 +35,8 @@ function research() {
             theoretical model. The resulting MSMR-I is a 27-items, self-reported
             scale scored on a 4-point Likert-type measure.
           </p>
+        </TextAndPic>
+        <TextAndPic textWidth={12}>
           <p>
             We have conducted studies to validate and examine the factor
             structure and psychometric properties of MSMR-I in several
@@ -53,8 +55,8 @@ function research() {
             resilience may lie. For details on how to use and interpret the
             MSMR-I, please contact us for access to user manual.
           </p>
-        </div>
-      </TextAndPic>
+        </TextAndPic>
+      </div>
       <OngoingProjects />
       <Publications />
     </div>

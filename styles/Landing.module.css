@@ -21,13 +21,21 @@
   color: #95a9ef;
 }
 
-.LandingContent .ButtonContainer {
-  margin-top: 40px;
-  display: flex;
+@media (max-width: 576px) {
+  .LandingContent {
+    padding: 10px 10px;
+  }
+
+  .LandingContent h1 {
+    font-size: 25px;
+  }
 }
 
-.ButtonContainer > :first-child {
-  margin-right: 32px;
+.LandingContent .ButtonContainer {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .ButtonContainer > p {

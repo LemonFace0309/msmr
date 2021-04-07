@@ -31,7 +31,7 @@ export default function Landing() {
             src="/images/landing-circle.png"
           />
         </div>
-        <div>
+        <div className="d-none d-lg-block">
           <Slide right delay={500}>
             <img
               className={styles.LandingPhone}

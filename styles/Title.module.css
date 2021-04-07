@@ -4,6 +4,7 @@
   position: relative;
   width: fit-content;
   margin: 25px 0px;
+  text-align: center;
 }
 
 .TitleStart::after,
@@ -23,4 +24,10 @@
 
 .TitleMiddle::after {
   left: calc(50% - 50px);
+}
+
+@media (max-width: 992px) {
+  .TitleStart::after {
+    left: calc(50% - 50px);
+  }
 }

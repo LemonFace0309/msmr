@@ -1,21 +1,15 @@
 .container {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  margin: 0px;
   padding: 0px;
-  overflow: hidden;
-}
-
-.container > * {
-  height: 100%;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  /* overflow: hidden; */
 }
 
 .imageContainer {
   position: relative;
-  height: 100%;
   transition: opacity 0.15s ease-in-out;
 }
 

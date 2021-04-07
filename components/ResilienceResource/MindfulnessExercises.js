@@ -5,8 +5,12 @@ import ColourBoxContainer from './ColourBoxContainer'
 import styles from './MindfulnessExercises.module.css'
 
 function MindfulnessExercises({ exercises }) {
+  let classStyles = []
+  classStyles.push(styles.MindfulnessExercises)
+  classStyles.push('container')
+  classStyles = classStyles.join(' ')
   return (
-    <div className={styles.MindfulnessExercises}>
+    <div className={classStyles}>
       <h1>
         {' '}
         The following mindfulness exercises may be useful, and were produced for
@@ -23,8 +27,6 @@ function MindfulnessExercises({ exercises }) {
               points={box.points}
               foreground={exercises.foreground}
               background={exercises.background}
-              width={exercises.width}
-              height={exercises.height}
               margin={exercises.margin}
               format={exercises.format}
             />
@@ -52,8 +54,6 @@ MindfulnessExercises.defaultProps = {
   exercises: {
     foreground: '#95A9EF',
     background: 'white',
-    width: 450,
-    height: 200,
     margin: 0,
     format: 'paragraphs',
     boxes: [
