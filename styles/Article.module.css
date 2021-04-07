@@ -23,8 +23,17 @@
 }
 
 .socialMedia {
-  text-align: right;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.shareButton {
+  width: 32px;
+  margin-left: 10px;
+}
+
+.shareButton:hover:not(:active) {
+  opacity: 0.75;
 }

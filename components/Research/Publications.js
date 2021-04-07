@@ -25,9 +25,10 @@ function Publications() {
         </Col>
         <Col xs={12} md={6}>
           <Card
-            img="/images/articles/placeholder.png"
+            img="/logo.png"
             btnText="VIEW MORE"
             title="MSMR Articles"
+            link="/featured-articles"
           />
         </Col>
       </Row>

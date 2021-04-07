@@ -16,11 +16,15 @@ import styles from './Card.module.css'
  * @param {String} title - is the title of the card
  * @param {String} img - the link to the image
  * @param {String} btnText - inner text for button
+ * @param {String} link - link to where the button leads
+ * @param {Boolean} disabled - true if button should be disabled
  * @param {React.Component} children - is the paragraph text
  */
-function AppCard({ title, img, children, btnText }) {
+function AppCard({ title, img, btnText, disabled, link, children }) {
   btnText = btnText ? btnText : 'READ MORE'
   title = title ? <Card.Title>{title}</Card.Title> : null
+  link = link ? link : '#'
+  disabled = disabled ? true : false
 
   return (
     <Card style={{ maxWidth: '18rem' }} className="shadow-sm h-100">
@@ -38,7 +42,7 @@ function AppCard({ title, img, children, btnText }) {
           {title}
           <Card.Text>{children}</Card.Text>
           <div className="d-flex justify-content-center">
-            <Button type="purpleWhite" link="/">
+            <Button type="purpleWhite" link={link} disabled={disabled}>
               <p>{btnText}</p>
             </Button>
           </div>
