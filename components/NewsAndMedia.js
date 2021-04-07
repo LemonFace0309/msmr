@@ -15,8 +15,8 @@ function NewsAndMedia({ posts }) {
         <div
           className="col-12 col-md-7"
           style={{
-            width: '750px',
-            height: '750px',
+            width: '700',
+            height: '400px',
             border: '2px solid black',
             position: 'relative',
             margin: '0px',
@@ -28,8 +28,8 @@ function NewsAndMedia({ posts }) {
         <div className="col-12 col-md-5">
           <a
             className="twitter-timeline"
-            data-width="750"
-            data-height="750"
+            data-width="700"
+            data-height="400"
             href="https://twitter.com/resilient_u?ref_src=twsrc%5Etfw"
           >
             Tweets by resilient_u
