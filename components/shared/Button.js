@@ -11,7 +11,7 @@ import styles from './Button.module.css'
  * @param {Boolean} disabled - true if button should be disabled
  * @param {React.Component} children - children element
  */
-function Button({ type, link, disabled, children}) {
+function Button({ type, link, disabled, children }) {
   let classes = [styles.container]
 
   if (type == 'purpleWhite') {
