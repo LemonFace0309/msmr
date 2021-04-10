@@ -28,7 +28,7 @@ function Publications() {
             img="/logo.png"
             btnText="VIEW MORE"
             title="MSMR Articles"
-            link="/featured-articles"
+            link="/msmr-articles"
           />
         </Col>
       </Row>
