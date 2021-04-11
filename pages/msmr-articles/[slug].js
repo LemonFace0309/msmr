@@ -47,7 +47,6 @@ function Article({ article }) {
                 <Image
                   src={getStrapiMedia(article.author.image)}
                   layout="fill"
-                  s
                   objectFit="cover"
                   objectPosition="center center"
                 />
