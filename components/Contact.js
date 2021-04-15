@@ -13,8 +13,6 @@ import styles from '../styles/Contact.module.css'
 const Contact = ({ name, email, subject, message }) => {
   const [validated, setValidated] = useState(false)
   const [showErrorMessages, setShowErrorMessages] = useState(false)
-  const contactContainer = ['container']
-  contactContainer.push(styles.contactContainer)
 
   const [contactForm, setContactForm] = useState({
     name: name,
@@ -64,7 +62,7 @@ const Contact = ({ name, email, subject, message }) => {
   }
 
   return (
-    <section id="contact" className={contactContainer.join(' ')}>
+    <section id="contact" className="container">
       <div className="row justify-content-center">
         <Title title="Contact Us" position="middle" />
       </div>
