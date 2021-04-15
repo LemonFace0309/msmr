@@ -15,6 +15,7 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 576px) {

@@ -1,3 +1,8 @@
+.contactContainer {
+  scroll-padding: 1rem 0 0 0;
+  scroll-behavior: smooth;
+}
+
 .input {
   border: none;
   border-radius: 0;
