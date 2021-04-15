@@ -11,13 +11,13 @@ function NewsAndMedia({ posts }) {
       className="container py-5 d-flex flex-column justify-content-center align-items-center"
     >
       <Title title="News and Media" position="middle" />
-      <div className="row">
+      <div className="row w-100">
         <div
           className="col-12 col-md-7"
           style={{
             width: '700',
-            height: '400px',
-            border: '2px solid black',
+            height: '600px',
+            border: '1px solid black',
             position: 'relative',
             margin: '0px',
             padding: '0px',
@@ -28,8 +28,8 @@ function NewsAndMedia({ posts }) {
         <div className="col-12 col-md-5">
           <a
             className="twitter-timeline"
-            data-width="700"
-            data-height="400"
+            data-width="500"
+            data-height="600"
             href="https://twitter.com/resilient_u?ref_src=twsrc%5Etfw"
           >
             Tweets by resilient_u

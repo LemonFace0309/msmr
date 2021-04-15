@@ -7,6 +7,18 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ReactMarkdown from 'react-markdown'
 import Moment from 'react-moment'
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+  WeiboShareButton,
+  WeiboIcon,
+} from 'react-share'
 
 import { fetchAPI } from '../../lib/api'
 import { getStrapiMedia } from '../../lib/media'
@@ -14,6 +26,8 @@ import Banner from '../../components/shared/Banner'
 import styles from '../../styles/Article.module.css'
 
 function Article({ article }) {
+  const router = useRouter()
+  const shareUrl = `${process.env.NEXT_PUBLIC_HOST}/featured-artciles/${router.query.slug}`
   return (
     <>
       <Banner url={getStrapiMedia(article.image[0])} title={article.title} />
@@ -46,7 +60,24 @@ function Article({ article }) {
             </div>
           </Col>
           <Col xs={12} md={8} className={styles.socialMedia}>
-            Social Media Icons
+            <FacebookShareButton url={shareUrl} className={styles.shareButton}>
+              <FacebookIcon size={32} round={true}></FacebookIcon>
+            </FacebookShareButton>
+            <FacebookMessengerShareButton
+              url={shareUrl}
+              className={styles.shareButton}
+            >
+              <FacebookMessengerIcon size={32} round />
+            </FacebookMessengerShareButton>
+            <TwitterShareButton url={shareUrl} className={styles.shareButton}>
+              <TwitterIcon size={32} round />
+            </TwitterShareButton>
+            <LinkedinShareButton url={shareUrl} className={styles.shareButton}>
+              <LinkedinIcon size={32} round />
+            </LinkedinShareButton>
+            <WeiboShareButton url={shareUrl} className={styles.shareButton}>
+              <WeiboIcon size={32} round />
+            </WeiboShareButton>
           </Col>
         </Row>
         <Row className="mt-4 py-4">

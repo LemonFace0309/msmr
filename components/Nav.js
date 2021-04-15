@@ -3,7 +3,6 @@
 import React from 'react'
 import NavStyles from '../styles/Nav.module.css'
 import { Navbar, Nav } from 'react-bootstrap'
-import Link from 'next/link'
 
 const MainNav = () => {
   return (
@@ -15,9 +14,9 @@ const MainNav = () => {
           height="23"
           className="d-inline-block align-baseline mx-2"
         />
-        <Link href="/">
-          <a className={NavStyles.Brand}> Multi-System Resilience </a>
-        </Link>
+        <Nav.Link href="/" className={NavStyles.Brand}>
+          Multi-System Resilience
+        </Nav.Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
