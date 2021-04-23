@@ -29,7 +29,8 @@ const Meta = ({ title, keywords, description }) => {
 Meta.defaultProps = {
   title: 'MSMR',
   keywords: 'resilience, psychology, msmr',
-  description: 'foo bar',
+  description:
+    'A comprehensive model, inventory, and digital tool that measures and tracks our ability to cope with everyday challenges',
 }
 
 export default Meta
