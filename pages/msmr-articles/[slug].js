@@ -94,7 +94,7 @@ function Article({ article }) {
           </Col>
         </Row>
         <Row className="mt-4 py-4">
-          <ReactMarkdown children={article.content} />
+          <ReactMarkdown allowDangerousHtml={true} children={article.content} />
         </Row>
       </Container>
     </>
