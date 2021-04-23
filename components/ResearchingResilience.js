@@ -11,7 +11,7 @@ function ResearchingResilience() {
       imageWidth={6}
       image="/images/researchingres.jpeg"
     >
-      <Title title="Researching Resilience" position="start" />
+      <Title title="Researching Resilience" position="middle" />
 
       <p>
         {' '}
