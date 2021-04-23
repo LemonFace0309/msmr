@@ -52,7 +52,7 @@ function Article({ article }) {
           content={article.description || article.title}
         ></meta>
       </Head>
-      <Banner url={getStrapiMedia(article.image[0])} title={article.title} />
+      <Banner url={getStrapiMedia(article.image[0])} />
       <Container>
         <Row className="mt-4">
           <h1>{article.title}</h1>
