@@ -24,7 +24,7 @@ function ResearchingResilience() {
         the model in several publications.{' '}
       </p>
 
-      <Button type="purpleWhite" link="/">
+      <Button type="purpleWhite" link="/research">
         <p>LEARN MORE</p>
       </Button>
     </TextAndPic>

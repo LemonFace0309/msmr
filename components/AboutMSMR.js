@@ -21,7 +21,7 @@ export default function AboutMSMR() {
         and how they can improve their resilience.{' '}
       </p>
 
-      <Button type="purpleWhite" link="/">
+      <Button type="purpleWhite" link="/about">
         <p>LEARN MORE</p>
       </Button>
     </TextAndPic>

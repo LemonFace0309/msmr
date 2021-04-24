@@ -9,7 +9,7 @@ import Acknowledgements from '../components/About/Acknowledgements'
 
 function about({ partners, researchers, techSupport, funderImages }) {
   return (
-    <div>
+    <section>
       <Banner
         url="/images/iphone_background_landscape.png"
         title="ABOUT MSMR"
@@ -76,7 +76,7 @@ function about({ partners, researchers, techSupport, funderImages }) {
         subtitle="The MSMR projects are generously supported by funds from:"
         images={funderImages}
       />
-    </div>
+    </section>
   )
 }
 

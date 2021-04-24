@@ -20,9 +20,11 @@ function Banner({ url, title }) {
         objectFit="cover"
         objectPosition="center center"
       />
-      <div className={styles.title}>
-        <h1>{title}</h1>
-      </div>
+      {title ? (
+        <div className={styles.title}>
+          <h1>{title}</h1>
+        </div>
+      ) : null}
     </div>
   )
 }

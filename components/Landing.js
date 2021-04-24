@@ -15,10 +15,14 @@ export default function Landing() {
           </h1>
         </Fade>
         <div className={styles.ButtonContainer}>
-          <Button type="whitePurple" link="/">
+          <Button
+            type="whitePurple"
+            link="https://linktr.ee/MultiSystem_Resilience"
+            newTab
+          >
             <p>DOWNLOAD</p>
           </Button>
-          <Button type="purpleWhite" link="/">
+          <Button type="purpleWhite" link="/#jumbotron">
             <p>LEARN MORE</p>
           </Button>
         </div>

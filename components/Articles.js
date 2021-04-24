@@ -5,10 +5,10 @@ import Card from './shared/Card'
 import Title from './Title'
 
 const Articles = ({ cards }) => {
-  const articles = Object.keys(cards).map((card, i) => (
+  const articles = cards.map((card, i) => (
     <div className="m-3" key={i}>
-      <Card title={cards[card].title} img={cards[card].img}>
-        {cards[card].text}
+      <Card title={card.title} img={card.img} link={card.link}>
+        {card.text}
       </Card>
     </div>
   ))
