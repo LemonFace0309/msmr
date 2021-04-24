@@ -19,6 +19,7 @@ function Banner({ url, title }) {
         layout="fill"
         objectFit="cover"
         objectPosition="center center"
+        priority
       />
       {title ? (
         <div className={styles.title}>

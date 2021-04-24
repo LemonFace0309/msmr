@@ -39,6 +39,7 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
                   layout="fill"
                   objectFit="contain"
                   objectPosition="center center"
+                  priority
                 />
               </div>
             </Fade>
