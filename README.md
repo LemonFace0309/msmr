@@ -59,6 +59,6 @@ Oren Leung - o.leung@cacheandcookies.ca
 
 Phillip Chen
 
-William Li
+William Shi
 
 ---
