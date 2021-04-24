@@ -18,9 +18,10 @@ function Publications() {
       <Row>
         <Col xs={12} md={6}>
           <Card
-            img="/images/articles/placeholder.png"
-            btnText="VIEW MORE"
+            img="/images/articles/featured-article.jpg"
+            btnText="Site Unavailable"
             title="Featured Articles"
+            disabled={true}
           />
         </Col>
         <Col xs={12} md={6}>

@@ -6,7 +6,7 @@ import TextAndPic from './shared/TextAndPic'
 
 export default function AboutMSMR() {
   return (
-    <TextAndPic textWidth={6} imageWidth={6} image="/images/aboutmsmr.png">
+    <TextAndPic textWidth={6} imageWidth={6} image="/images/aboutmsmr.jpg">
       <Title title="About MSMR" position="start" />
       <p>
         {' '}
@@ -21,7 +21,7 @@ export default function AboutMSMR() {
         and how they can improve their resilience.{' '}
       </p>
 
-      <Button type="purpleWhite" link="/">
+      <Button type="purpleWhite" link="/about">
         <p>LEARN MORE</p>
       </Button>
     </TextAndPic>

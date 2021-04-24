@@ -9,7 +9,7 @@ import Acknowledgements from '../components/About/Acknowledgements'
 
 function about({ partners, researchers, techSupport, funderImages }) {
   return (
-    <div>
+    <section>
       <Banner
         url="/images/iphone_background_landscape.png"
         title="ABOUT MSMR"
@@ -51,26 +51,20 @@ function about({ partners, researchers, techSupport, funderImages }) {
         <div className={styles.bioTextWrapper}>
           <h2>Author and Creator</h2>
           <p>
-            Dr. Liu is the creator and lead author of the Multi-System Model of
-            Resilience (MSMR). She is a Postdoctoral Research Fellow in
-            Psychiatry at the Toronto Western Hospital-Krembil Research
-            Institute, University Health Network, and a Postdoctoral Fellow
-            within Urban Health Equity Research at the Daphne Cockwell School of
-            Nursing, Ryerson University. Dr. Liu is also an elected board member
-            of the Society for the Study of Psychiatry and Culture, an
-            international organization devoted to fostering cultural aspects of
-            mental health and illness. Dr. Liu’s background is in psychological
-            science, and her scholarship activities bridge research in stress
-            and resilience with community-based applications. Dr. Liu has
-            received several grants and awards to fund the development and
-            validation of the model and measure of resilience, including the
-            digitization of this measure. She is the recipient of several
-            prestigious awards, including the American Psychological
-            Association’s Dissertation Award, the Psychology Foundation of
-            Canada / Canadian Psychological Association Research Award, the
-            Ryerson Gold Medal, and the Board of Governor’s Leadership Award.
-            The model and tool are currently used in several multi-year projects
-            around the world.
+            Dr. Jenny Liu is a Postdoctoral Associate with the MacDonald
+            Franklin OSI Research Centre and the Department of Psychiatry,
+            Schulich School of Medicine, Western University. She also holds
+            appointments with the Toronto Western Hospital-Krembil Research
+            Institute, and the Daphne Cockwell School of Nursing, Ryerson
+            University. Dr. Liu is an elected board member of the Society for
+            the Study of Psychiatry and Culture, an international organization
+            devoted to fostering cultural aspects of mental health and illness.
+            Dr. Liu’s background is in psychological science, and her
+            scholarship activities bridge research in stress and resilience with
+            community-based applications. In her work, Dr. Liu explores the
+            intersecting biophysiological, psychological, and socio-cultural
+            determinants of health and resilience using mixed methods approaches
+            and quantitative modelling.
           </p>
         </div>
       </TextAndPic>
@@ -82,7 +76,7 @@ function about({ partners, researchers, techSupport, funderImages }) {
         subtitle="The MSMR projects are generously supported by funds from:"
         images={funderImages}
       />
-    </div>
+    </section>
   )
 }
 
@@ -135,7 +129,7 @@ about.defaultProps = {
   funderImages: [
     {
       organization: 'rbc',
-      url: '/images/RBC.png',
+      url: '/images/RBC.jpg',
       caption:
         'The Royal Bank of Canada’s Partnership for Change, Inclusion, and Diversity Project Grant',
     },

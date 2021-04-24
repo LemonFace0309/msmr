@@ -25,7 +25,7 @@ function OngoingProjects() {
       <Row>
         <Col xs={12} md={3} className={styles.col}>
           <Card
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="VIEW SITE"
             link="https://projectprotech.ca/"
           >
@@ -36,7 +36,7 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="Site Unavailable"
             disabled={true}
           >
@@ -47,7 +47,7 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="VIEW SITE"
             link="https://www.we2care.ca"
           >
@@ -59,7 +59,7 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="VIEW SITE"
             link="http://acas.org/champs-in-action/"
           >

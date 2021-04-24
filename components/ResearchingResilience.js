@@ -11,7 +11,7 @@ function ResearchingResilience() {
       imageWidth={6}
       image="/images/researchingres.jpeg"
     >
-      <Title title="Researching Resilience" position="start" />
+      <Title title="Researching Resilience" position="middle" />
 
       <p>
         {' '}
@@ -24,7 +24,7 @@ function ResearchingResilience() {
         the model in several publications.{' '}
       </p>
 
-      <Button type="purpleWhite" link="/">
+      <Button type="purpleWhite" link="/research">
         <p>LEARN MORE</p>
       </Button>
     </TextAndPic>

@@ -51,7 +51,7 @@ export default function MaxResilience() {
           </p>
         </div>
 
-        <Button type="purpleWhite" link="/">
+        <Button type="purpleWhite" link="/resilience">
           <p>LEARN MORE</p>
         </Button>
       </TextAndPic>

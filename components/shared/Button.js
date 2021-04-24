@@ -9,9 +9,10 @@ import styles from './Button.module.css'
  * @param {string} type - type == 'purpleWhite' || type == 'whitePurple. Colour order reflects background colour -> text colour.
  * @param {string} link - link to target designation
  * @param {Boolean} disabled - true if button should be disabled
+ * @param {Boolean} newTab - true if button should be opened in a new tab
  * @param {React.Component} children - children element
  */
-function Button({ type, link, disabled, children }) {
+function Button({ type, link, disabled, newTab, children }) {
   let classes = [styles.container]
 
   if (type == 'purpleWhite') {
@@ -23,6 +24,16 @@ function Button({ type, link, disabled, children }) {
     classes.push(styles.disabled)
   }
   classes = classes.join(' ')
+
+  if (newTab) {
+    return (
+      <Link href={link}>
+        <a className={styles.link} target="_blank">
+          <div className={classes}>{children}</div>
+        </a>
+      </Link>
+    )
+  }
 
   return (
     <Link href={link}>
