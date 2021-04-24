@@ -29,7 +29,7 @@ Home.defaultProps = {
   articles: [
     {
       title: 'IPPA Leader Series Welcomes Dr. Jenny Liu',
-      img: '/images/aboutmsmr.png',
+      img: '/images/aboutmsmr.jpg',
       text:
         'UPDATED: January 5, 2020 Dr. Jenny Liu delivers a presentation on resilience and how it can be strengthened...',
       link:
@@ -44,7 +44,7 @@ Home.defaultProps = {
     },
     {
       title: 'What Does it Take to Increase Our Resilience?',
-      img: '/images/jumbotron.png',
+      img: '/images/jumbotron.jpg',
       text:
         'Dr. Jenny Liu’s work is featured at the Society of Clinical Psychology. A small excerpt from her article is quoted below...',
       link: '/msmr-articles/what-does-it-take-to-increase-our-resilience',

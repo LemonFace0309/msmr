@@ -64,7 +64,7 @@ Sponsors.defaultProps = {
       alt: 'Ryerson University',
     },
     {
-      img: '/images/sponsors/RBC.png',
+      img: '/images/sponsors/RBC.jpg',
       alt: 'Royal Bank of Canada',
     },
     {
@@ -76,12 +76,12 @@ Sponsors.defaultProps = {
       alt: 'Mitacs',
     },
     {
-      img: '/images/sponsors/PFC-300x300.png',
+      img: '/images/sponsors/PFC-300x300.jpg',
       alt: 'The Psychology Foundation of Canada',
     },
     {
       img:
-        '/images/sponsors/1200px-American_Psychological_Association_logo.png',
+        '/images/sponsors/1200px-American_Psychological_Association_logo.jpg',
       alt: 'American_Psychological_Association_logo',
     },
     {
@@ -97,7 +97,7 @@ Sponsors.defaultProps = {
       alt: 'Fund for Innovation and Transformation',
     },
     {
-      img: '/images/sponsors/foundation-logo-1-300x236.png',
+      img: '/images/sponsors/foundation-logo-1-300x236.jpg',
       alt: 'Hong Fook Mental Health Foundation',
     },
     {
