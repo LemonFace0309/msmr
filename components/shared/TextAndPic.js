@@ -35,6 +35,7 @@ function TextAndPic({ children, textWidth, imageWidth, image, isImageFirst }) {
             <Fade bottom>
               <div className={styles.ImageWrapper}>
                 <Image
+                  alt={image}
                   src={image}
                   layout="fill"
                   objectFit="contain"

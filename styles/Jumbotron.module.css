@@ -1,6 +1,6 @@
 #imageHolder {
   background: linear-gradient(rgba(149, 169, 239, 0.5), rgba(85, 103, 155, 0.2)),
-    url('/images/jumbotron.png');
+    url('/images/jumbotron.jpg');
   background-size: cover;
   background-position: center;
 }

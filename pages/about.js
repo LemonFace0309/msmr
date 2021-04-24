@@ -129,7 +129,7 @@ about.defaultProps = {
   funderImages: [
     {
       organization: 'rbc',
-      url: '/images/RBC.png',
+      url: '/images/RBC.jpg',
       caption:
         'The Royal Bank of Canada’s Partnership for Change, Inclusion, and Diversity Project Grant',
     },
