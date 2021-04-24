@@ -18,7 +18,7 @@ export default function Landing() {
           <Button type="whitePurple" link="/">
             <p>DOWNLOAD</p>
           </Button>
-          <Button type="purpleWhite" link="/">
+          <Button type="purpleWhite" link="/#jumbotron">
             <p>LEARN MORE</p>
           </Button>
         </div>
