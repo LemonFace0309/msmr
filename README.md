@@ -1,5 +1,10 @@
 # Multi-System Model of Resilience (MSMR) Website
 
+![format status](https://github.com/LemonFace0309/msmr/workflows/Format/badge.svg)
+![GitHub issues](https://img.shields.io/github/issues/LemonFace0309/msmr)
+![GitHub contributors](https://img.shields.io/github/contributors/LemonFace0309/msmr)
+![GitHub last commit](https://img.shields.io/github/last-commit/LemonFace0309/msmr)
+
 ---
 
 ![About Screenshot](./docs/images/about_screenshot.png)

@@ -15,7 +15,7 @@ function resilience() {
       <TextAndPic
         textWidth={6}
         imageWidth={6}
-        image="/images/resilience_resources.png"
+        image="/images/resilience_resources.jpg"
       >
         <div className="p-1 p-md-5">
           <h2>Maximizing Your Resilience</h2>

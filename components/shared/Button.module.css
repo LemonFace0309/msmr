@@ -49,3 +49,9 @@
 .whitePurple:hover {
   background-color: #efefef;
 }
+
+.disabled:hover {
+  transform: none;
+  cursor: default;
+  background-color: red;
+}

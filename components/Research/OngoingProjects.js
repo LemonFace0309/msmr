@@ -24,7 +24,11 @@ function OngoingProjects() {
       </Row>
       <Row>
         <Col xs={12} md={3} className={styles.col}>
-          <Card img="/images/articles/placeholder.png" btnText="VIEW SITE">
+          <Card
+            img="/images/articles/ongoing-project.jpg"
+            btnText="VIEW SITE"
+            link="https://projectprotech.ca/"
+          >
             Project PROTECH: Pandemic Rapid-response Optimization To Enhance
             Community-resilience and Health
           </Card>
@@ -32,8 +36,9 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
-            btnText="VIEW SITE"
+            img="/images/articles/ongoing-project.jpg"
+            btnText="Site Unavailable"
+            disabled={true}
           >
             Linking Hearts: Advancing Mental Health Care of University Students,
             a Canada-China international collaborative implementation project
@@ -42,8 +47,9 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="VIEW SITE"
+            link="https://www.we2care.ca"
           >
             Women Empowerment – Caregiver Acceptance & Resilience E-Learning:
             Web-based Acceptance and Commitment Therapy for Stress Reduction
@@ -53,8 +59,9 @@ function OngoingProjects() {
         <Col xs={12} md={3} className={styles.col}>
           <Card
             className={styles.card}
-            img="/images/articles/placeholder.png"
+            img="/images/articles/ongoing-project.jpg"
             btnText="VIEW SITE"
+            link="http://acas.org/champs-in-action/"
           >
             CHAMPS in Action: Advancing Community Health through Evidence-Based
             HIV Stigma Interventions
