@@ -37,20 +37,19 @@ function Article({ article }) {
         <meta
           name="description"
           content={article.description || article.title}
-        ></meta>
-        <meta name="keywords" content={article.keywords}></meta>
-
-        <meta name="og:title" content={article.title}></meta>
+        />
+        <meta name="keywords" content={article.keywords} />
+        <meta name="og:title" content={article.title} />
+        <meta name="og:image" content={article.image[0]} />
         <meta
           name="og:description"
           content={article.description || article.title}
-        ></meta>
-
+        />
         <meta name="twitter:title" content={article.title}></meta>
         <meta
           name="twitter:description"
           content={article.description || article.title}
-        ></meta>
+        />
       </Head>
       <Banner url={getStrapiMedia(article.image[0])} />
       <Container>
