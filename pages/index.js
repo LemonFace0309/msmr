@@ -28,10 +28,17 @@ export default function Home({ articles, posts }) {
 Home.defaultProps = {
   articles: [
     {
+      title: 'MacHERE Event — Anti Asian Canadian Racism in the Era of COVID 19 ft. Dr. Jenny Liu',
+      img: '/images/jumbotron.jpg',
+      text:
+        'Dr. Jenny Liu brings attention to the discrimination against East Asian Canadians in the era of Covid-19.',
+      link: '/msmr-articles/machere-event',
+    },
+    {
       title: 'IPPA Leader Series Welcomes Dr. Jenny Liu',
       img: '/images/aboutmsmr.jpg',
       text:
-        'UPDATED: January 5, 2020 Dr. Jenny Liu delivers a presentation on resilience and how it can be strengthened...',
+        'Abstract: In the midst of a global pandemic, civil unrest, and growing racial tensions, staying resilient is more important...',
       link:
         '/msmr-articles/international%20-positive-psychology-association-leader-series-welcomes-dr-jenny-liu',
     },
@@ -41,13 +48,6 @@ Home.defaultProps = {
       text:
         'Wellness Solutions podcast hosts Mary Mangos and Danny Blackford explore the topic of resistance with Dr. Jenny Liu.',
       link: '/msmr-articles/resilience-is-more-than-your-mindset',
-    },
-    {
-      title: 'What Does it Take to Increase Our Resilience?',
-      img: '/images/jumbotron.jpg',
-      text:
-        'Dr. Jenny Liu’s work is featured at the Society of Clinical Psychology. A small excerpt from her article is quoted below...',
-      link: '/msmr-articles/what-does-it-take-to-increase-our-resilience',
     },
   ],
   posts: [
