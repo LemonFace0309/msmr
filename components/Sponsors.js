@@ -23,7 +23,7 @@ const responsive = {
 function Sponsors({ sponsors }) {
   return (
     <section className="container py-5 d-flex flex-column justify-content-center align-items-center">
-      <Title title="Sponsors" position="middle" />
+      <Title title="Funders" position="middle" />
 
       <Carousel
         responsive={responsive}
