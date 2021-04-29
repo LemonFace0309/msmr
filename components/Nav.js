@@ -1,4 +1,4 @@
-// By William Shi, Charles Liu
+// @author William Shi, Charles Liu
 
 import React from 'react'
 import Link from 'next/link'
