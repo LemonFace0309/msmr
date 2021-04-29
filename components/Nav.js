@@ -16,11 +16,9 @@ const MainNav = () => {
           height="23"
           className="d-inline-block align-baseline mx-2"
         />
-        <Link href="/">
-          <Nav.Link href="/" className={NavStyles.Brand}>
-            Multi-System Resilience
-          </Nav.Link>
-        </Link>
+        <Nav.Link href="/" className={NavStyles.Brand}>
+          Multi-System Resilience
+        </Nav.Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
