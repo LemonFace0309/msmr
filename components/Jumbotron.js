@@ -9,11 +9,12 @@ const Jumbo = () => {
         <div>
           <Container className="py-5">
             <h1 className={JumboStyles.Text}>
-              Resilience involves internal issues such as one’s ability to care
-              for themselves and have emotional control. It means having the
-              ability to cope with everyday challenges, and knowing how to
-              access community supports. Understanding our sources of resilience
-              is the first step in becoming more resilient.
+              “Resilience involves internal resources such as one’s ability to
+              care for themselves and have emotional control. It means coping
+              with everyday challenges, and knowing when, and how to access
+              support systems and services. Understanding our sources of
+              resilience is the first step in expanding our resilience
+              capacities.”
             </h1>
           </Container>
         </div>

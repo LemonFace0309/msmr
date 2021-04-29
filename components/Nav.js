@@ -24,7 +24,7 @@ const MainNav = () => {
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/resilience">Resilience</Nav.Link>
           <Nav.Link href="/research">Research</Nav.Link>
-          <Nav.Link href="/#media">Media</Nav.Link>
+          <Nav.Link href="/msmr-articles">Articles</Nav.Link>
           <Nav.Link href="/#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
