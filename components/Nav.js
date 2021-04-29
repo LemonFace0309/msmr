@@ -1,6 +1,8 @@
-// By William Shi
+// @author William Shi, Charles Liu
 
 import React from 'react'
+import Link from 'next/link'
+
 import NavStyles from '../styles/Nav.module.css'
 import { Navbar, Nav } from 'react-bootstrap'
 
@@ -21,11 +23,11 @@ const MainNav = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/resilience">Resilience</Nav.Link>
-          <Nav.Link href="/research">Research</Nav.Link>
-          <Nav.Link href="/msmr-articles">Articles</Nav.Link>
-          <Nav.Link href="/#contact">Contact</Nav.Link>
+          <Link href="/about"><Nav.Link href="/about">About</Nav.Link></Link>
+          <Link href="/resilience"><Nav.Link href="/resilience">Resilience</Nav.Link></Link>
+          <Link href="/research"><Nav.Link href="/research">Research</Nav.Link></Link>
+          <Link href="/msmr-articles"><Nav.Link href="/msmr-articles">Articles</Nav.Link></Link>
+          <Link href="/#contact"><Nav.Link href="/#contact">Contact</Nav.Link></Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
