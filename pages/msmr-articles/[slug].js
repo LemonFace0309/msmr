@@ -28,7 +28,7 @@ import styles from '../../styles/Article.module.css'
 
 function Article({ article }) {
   const router = useRouter()
-  const shareUrl = `${process.env.NEXT_PUBLIC_HOST}/featured-artciles/${router.query.slug}`
+  const shareUrl = `${process.env.NEXT_PUBLIC_HOST}/msmr-articles/${router.query.slug}`
 
   return (
     <>
