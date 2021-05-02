@@ -28,7 +28,8 @@ export default function Home({ articles, posts }) {
 Home.defaultProps = {
   articles: [
     {
-      title: 'MacHERE Event — Anti Asian Canadian Racism in the Era of COVID 19 ft. Dr. Jenny Liu',
+      title:
+        'MacHERE Event — Anti Asian Canadian Racism in the Era of COVID 19 ft. Dr. Jenny Liu',
       img: '/images/jumbotron.jpg',
       text:
         'Dr. Jenny Liu brings attention to the discrimination against East Asian Canadians in the era of Covid-19.',

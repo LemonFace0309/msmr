@@ -6,11 +6,7 @@ import TextAndPic from './shared/TextAndPic'
 
 function ResearchingResilience() {
   return (
-    <TextAndPic
-      textWidth={6}
-      imageWidth={6}
-      image="/images/researchingres.jpg"
-    >
+    <TextAndPic textWidth={6} imageWidth={6} image="/images/researchingres.jpg">
       <Title title="Researching Resilience" position="middle" />
 
       <p>
