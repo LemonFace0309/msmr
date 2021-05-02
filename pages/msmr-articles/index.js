@@ -31,7 +31,7 @@ function featuredArticles({ posts }) {
   return (
     <div>
       <Banner
-        url="/images/iphone_background_landscape.png"
+        url="/images/iphone_background_landscape.jpg"
         title="MSMR Articles"
       />
       <Container fluid className={styles.container}>

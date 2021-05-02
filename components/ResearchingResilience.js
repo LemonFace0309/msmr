@@ -9,7 +9,7 @@ function ResearchingResilience() {
     <TextAndPic
       textWidth={6}
       imageWidth={6}
-      image="/images/researchingres.jpeg"
+      image="/images/researchingres.jpg"
     >
       <Title title="Researching Resilience" position="middle" />
 

@@ -44,7 +44,7 @@ Home.defaultProps = {
     },
     {
       title: 'Resilience is More than your Mindset',
-      img: '/images/maxres.jpeg',
+      img: '/images/maxres.jpg',
       text:
         'Wellness Solutions podcast hosts Mary Mangos and Danny Blackford explore the topic of resistance with Dr. Jenny Liu.',
       link: '/msmr-articles/resilience-is-more-than-your-mindset',
