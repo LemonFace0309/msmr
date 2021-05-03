@@ -10,7 +10,7 @@ function research() {
   return (
     <div>
       <Banner
-        url="/images/iphone_background_landscape.png"
+        url="/images/iphone_background_landscape.jpg"
         title="Research and Publications"
       />
       <div className="container">

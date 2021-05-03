@@ -11,7 +11,7 @@ function about({ partners, researchers, techSupport, funderImages }) {
   return (
     <section>
       <Banner
-        url="/images/iphone_background_landscape.png"
+        url="/images/iphone_background_landscape.jpg"
         title="ABOUT MSMR"
       />
       <TextAndPic textWidth={8} imageWidth={4} image="/logo.png">

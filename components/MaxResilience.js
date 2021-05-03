@@ -18,7 +18,7 @@ export default function MaxResilience() {
       <TextAndPic
         textWidth={6}
         imageWidth={6}
-        image="/images/maxres.jpeg"
+        image="/images/maxres.jpg"
         isImageFirst={true}
       >
         <div className="py-5 py-md-0">
