@@ -43,9 +43,10 @@ function featuredArticles({ posts }) {
 
 export async function getStaticProps() {
   const posts = await fetchAPI('/articles')
+  const sortedPosts = posts.reverse()
   return {
     props: {
-      posts: posts,
+      posts: sortedPosts,
     },
     revalidate: 21600,
   }
