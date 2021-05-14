@@ -7,7 +7,7 @@ function terms() {
   return (
     <>
       <Banner
-        url="/images/iphone_background_landscape.png"
+        url="/images/iphone_background_landscape.jpg"
         title="TERMS AND CONDITIONS"
       />
 

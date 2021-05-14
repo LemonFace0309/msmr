@@ -31,7 +31,7 @@ function featuredArticles({ posts }) {
   return (
     <div>
       <Banner
-        url="/images/iphone_background_landscape.png"
+        url="/images/iphone_background_landscape.jpg"
         title="MSMR Articles"
       />
       <Container fluid className={styles.container}>
@@ -42,9 +42,8 @@ function featuredArticles({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = await fetchAPI('/articles');
+  const posts = await fetchAPI('/articles')
   const sortedPosts = posts.reverse()
-  console.log(sortedPosts)
   return {
     props: {
       posts: sortedPosts,
