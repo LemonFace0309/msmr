@@ -43,11 +43,11 @@ Home.defaultProps = {
         '/msmr-articles/international%20-positive-psychology-association-leader-series-welcomes-dr-jenny-liu',
     },
     {
-      title: 'Resilience is More than your Mindset',
+      title: 'Eyes Open: An Anti-Asian Racism PSA',
       img: '/images/maxres.jpeg',
       text:
-        'Wellness Solutions podcast hosts Mary Mangos and Danny Blackford explore the topic of resistance with Dr. Jenny Liu.',
-      link: '/msmr-articles/resilience-is-more-than-your-mindset',
+        'This #AsianHeritageMonth, we are calling on our allies to confront the injustices facing our communities, and #FaceRace.',
+      link: '/msmr-articles/eyes-open-an-anti-asian-racism-psa',
     },
   ],
   posts: [
