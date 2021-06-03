@@ -36,12 +36,12 @@ Home.defaultProps = {
       link: '/msmr-articles/machere-event',
     },
     {
-      title: 'IPPA Leader Series Welcomes Dr. Jenny Liu',
+      title: 'Aligning Resilience to Support Your Needs',
       img: '/images/aboutmsmr.jpg',
       text:
-        'Abstract: In the midst of a global pandemic, civil unrest, and growing racial tensions, staying resilient is more important...',
+        'Amid a global pandemic, it can be outright daunting. In these pursuits, the word “resilience” appears...',
       link:
-        '/msmr-articles/international%20-positive-psychology-association-leader-series-welcomes-dr-jenny-liu',
+        '/msmr-articles/aligning-resilience-to-support-your-needs',
     },
     {
       title: 'Eyes Open: An Anti-Asian Racism PSA',
