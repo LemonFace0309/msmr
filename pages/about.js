@@ -52,19 +52,19 @@ function about({ partners, researchers, techSupport, funderImages }) {
           <h2>Author and Creator</h2>
           <p>
             Dr. Jenny Liu is a Postdoctoral Associate with the MacDonald
-            Franklin OSI Research Centre and the Department of Psychiatry,
-            Schulich School of Medicine, Western University. She also holds
-            appointments with the Toronto Western Hospital-Krembil Research
-            Institute, and the Daphne Cockwell School of Nursing, Ryerson
-            University. Dr. Liu is an elected board member of the Society for
-            the Study of Psychiatry and Culture, an international organization
-            devoted to fostering cultural aspects of mental health and illness.
-            Dr. Liu’s background is in psychological science, and her
-            scholarship activities bridge research in stress and resilience with
-            community-based applications. In her work, Dr. Liu explores the
-            intersecting biophysiological, psychological, and socio-cultural
-            determinants of health and resilience using mixed methods approaches
-            and quantitative modelling.
+            Franklin OSI Research Centre and an Adjunt Research Professors in
+            the Department of Psychiatry, Schulich School of Medicine, Western
+            University. She also holds appointments with the Toronto Western
+            Hospital-Krembil Research Institute, and the Daphne Cockwell School
+            of Nursing, Ryerson University. Dr. Liu is an elected board member
+            of the Society for the Study of Psychiatry and Culture, an
+            international organization devoted to fostering cultural aspects of
+            mental health and illness. Dr. Liu’s background is in psychological
+            science, and her scholarship activities bridge research in stress
+            and resilience with community-based applications. In her work, Dr.
+            Liu explores the intersecting biophysiological, psychological, and
+            socio-cultural determinants of health and resilience using mixed
+            methods approaches and quantitative modelling.
           </p>
         </div>
       </TextAndPic>
