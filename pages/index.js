@@ -28,27 +28,27 @@ export default function Home({ articles, posts }) {
 Home.defaultProps = {
   articles: [
     {
+      title: 'Aligning Resilience to Support Your Needs',
+      img: '/images/aboutmsmr.jpg',
+      text:
+      'Amid a global pandemic, it can be outright daunting. In these pursuits, the word “resilience” appears...',
+      link:
+      '/msmr-articles/aligning-resilience-to-support-your-needs',
+    },
+    {
+      title: 'Eyes Open: An Anti-Asian Racism PSA',
+      img: '/images/maxres.jpg',
+      text:
+      'This #AsianHeritageMonth, we are calling on our allies to confront the injustices facing our communities, and #FaceRace.',
+      link: '/msmr-articles/eyes-open-an-anti-asian-racism-psa',
+    },
+    {
       title:
         'MacHERE Event — Anti Asian Canadian Racism in the Era of COVID 19 ft. Dr. Jenny Liu',
       img: '/images/jumbotron.jpg',
       text:
         'Dr. Jenny Liu brings attention to the discrimination against East Asian Canadians in the era of Covid-19.',
       link: '/msmr-articles/machere-event',
-    },
-    {
-      title: 'Aligning Resilience to Support Your Needs',
-      img: '/images/aboutmsmr.jpg',
-      text:
-        'Amid a global pandemic, it can be outright daunting. In these pursuits, the word “resilience” appears...',
-      link:
-        '/msmr-articles/aligning-resilience-to-support-your-needs',
-    },
-    {
-      title: 'Eyes Open: An Anti-Asian Racism PSA',
-      img: '/images/maxres.jpg',
-      text:
-        'This #AsianHeritageMonth, we are calling on our allies to confront the injustices facing our communities, and #FaceRace.',
-      link: '/msmr-articles/eyes-open-an-anti-asian-racism-psa',
     },
   ],
   posts: [
