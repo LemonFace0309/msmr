@@ -19,6 +19,8 @@ The Multi-System Model of Resilience (MSMR) is a copyright-protected and empiric
 
 The MSMR digital application provides an opportunity for users to engage and learn about their personal resilience capacity - where they stand, and how they can improve their resilience.
 
+This project was built with NextJS and Strapi.
+
 ---
 
 ## Sponsors of Multi-System Model of Resilience Research
@@ -58,9 +60,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 Charles Liu - c.liu@cacheandcookies.ca
 
-Jimmy Yang - j.yang@cacheandcookies.ca
+Jimmy Yang
 
-Oren Leung - o.leung@cacheandcookies.ca
+Oren Leung
 
 Phillip Chen
 
