@@ -31,15 +31,14 @@ Home.defaultProps = {
       title: 'Aligning Resilience to Support Your Needs',
       img: '/images/aboutmsmr.jpg',
       text:
-      'Amid a global pandemic, it can be outright daunting. In these pursuits, the word “resilience” appears...',
-      link:
-      '/msmr-articles/aligning-resilience-to-support-your-needs',
+        'Amid a global pandemic, it can be outright daunting. In these pursuits, the word “resilience” appears...',
+      link: '/msmr-articles/aligning-resilience-to-support-your-needs',
     },
     {
       title: 'Eyes Open: An Anti-Asian Racism PSA',
       img: '/images/maxres.jpg',
       text:
-      'This #AsianHeritageMonth, we are calling on our allies to confront the injustices facing our communities, and #FaceRace.',
+        'This #AsianHeritageMonth, we are calling on our allies to confront the injustices facing our communities, and #FaceRace.',
       link: '/msmr-articles/eyes-open-an-anti-asian-racism-psa',
     },
     {
