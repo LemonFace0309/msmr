@@ -52,7 +52,7 @@ function about({ partners, researchers, techSupport, funderImages }) {
           <h2>Author and Creator</h2>
           <p>
             Dr. Jenny Liu is a Postdoctoral Associate with the MacDonald
-            Franklin OSI Research Centre and an Adjunt Research Professor in the
+            Franklin OSI Research Centre and an Adjunct Research Professor in the
             Department of Psychiatry, Schulich School of Medicine, Western
             University. She also holds appointments with the Toronto Western
             Hospital-Krembil Research Institute, and the Daphne Cockwell School
