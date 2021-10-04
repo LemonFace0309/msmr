@@ -4,8 +4,8 @@ import React from 'react'
 import Card from './shared/Card'
 import Title from './Title'
 
-const Articles = ({ cards }) => {
-  const articles = cards.map((card, i) => (
+const News = ({ cards }) => {
+  const news = cards.map((card, i) => (
     <div className="m-3" key={i}>
       <Card title={card.title} img={card.img} link={card.link}>
         {card.text}
@@ -16,11 +16,11 @@ const Articles = ({ cards }) => {
   return (
     <>
       <div className="d-flex justify-content-center">
-        <Title title="Articles" position="middle" />
+        <Title title="News" position="middle" />
       </div>
-      <div className="row mx-auto justify-content-center">{articles}</div>
+      <div className="row mx-auto justify-content-center">{news}</div>
     </>
   )
 }
 
-export default Articles
+export default News

@@ -1,15 +1,14 @@
-import Head from 'next/head'
 import Landing from '../components/Landing'
 import Jumbotron from '../components/Jumbotron'
 import MaxResilience from '../components/MaxResilience'
 import AboutMSMR from '../components/AboutMSMR'
-import Articles from '../components/Articles'
-import NewsAndMedia from '../components/NewsAndMedia'
+import News from '../components/News'
+import Media from '../components/Media'
 import ResearchingResilience from '../components/ResearchingResilience'
 import Sponsors from '../components/Sponsors'
 import Contact from '../components/Contact'
 
-export default function Home({ articles, posts }) {
+export default function Home({ news, posts }) {
   return (
     <>
       <Landing />
@@ -17,8 +16,8 @@ export default function Home({ articles, posts }) {
       <AboutMSMR />
       <MaxResilience />
       <ResearchingResilience />
-      <NewsAndMedia posts={posts} />
-      <Articles cards={articles} />
+      <Media posts={posts} />
+      <News cards={news} />
       <Sponsors />
       <Contact />
     </>
@@ -26,7 +25,7 @@ export default function Home({ articles, posts }) {
 }
 
 Home.defaultProps = {
-  articles: [
+  news: [
     {
       title: 'Aligning Resilience to Support Your Needs',
       img: '/images/aboutmsmr.jpg',

@@ -4,13 +4,13 @@ import Title from './Title'
 
 import Instagram from './Instagram'
 
-function NewsAndMedia({ posts }) {
+function Media({ posts }) {
   return (
     <section
       id="media"
       className="container py-5 d-flex flex-column justify-content-center align-items-center"
     >
-      <Title title="News and Media" position="middle" />
+      <Title title="Media" position="middle" />
       <div className="row w-100">
         <div
           className="col-12 col-md-7"
@@ -45,4 +45,4 @@ function NewsAndMedia({ posts }) {
   )
 }
 
-export default NewsAndMedia
+export default Media
