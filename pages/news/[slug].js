@@ -1,7 +1,6 @@
 // @author Charles Liu
 
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -27,8 +26,7 @@ import Banner from '../../components/shared/Banner'
 import styles from '../../styles/Article.module.css'
 
 function Article({ article }) {
-  const router = useRouter()
-  const shareUrl = `${process.env.NEXT_PUBLIC_HOST}/msmr-articles/${router.query.slug}`
+  const shareUrl = window.location.href
 
   return (
     <>
