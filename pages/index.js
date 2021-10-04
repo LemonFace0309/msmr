@@ -7,8 +7,11 @@ import Media from '../components/Media'
 import ResearchingResilience from '../components/ResearchingResilience'
 import Sponsors from '../components/Sponsors'
 import Contact from '../components/Contact'
+import { fetchAPI } from '../lib/api'
 
-export default function Home({ news, posts }) {
+export default function Home({ news, test, posts }) {
+  console.debug(test);
+
   return (
     <>
       <Landing />
@@ -17,7 +20,7 @@ export default function Home({ news, posts }) {
       <MaxResilience />
       <ResearchingResilience />
       <Media posts={posts} />
-      <News cards={news} />
+      <News cards={test} />
       <Sponsors />
       <Contact />
     </>
@@ -89,16 +92,13 @@ Home.defaultProps = {
   ],
 }
 
-// export async function getStaticProps() {
-//   const res = await fetch(
-//     'https://instagram-rest-soratbesxq-uc.a.run.app/getMockPost',
-//   )
-//   const data = await res.json()
-//   const posts = data.posts
-
-//   return {
-//     props: {
-//       posts,
-//     },
-//   }
-// }
+export async function getStaticProps() {
+  const news = await fetchAPI('/articles')
+  const sortedNews = news.reverse().slice(0, 3)
+  return {
+    props: {
+      test: sortedNews,
+    },
+    revalidate: 21600,
+  }
+}

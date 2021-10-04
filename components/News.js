@@ -7,8 +7,8 @@ import Title from './Title'
 const News = ({ cards }) => {
   const news = cards.map((card, i) => (
     <div className="m-3" key={i}>
-      <Card title={card.title} img={card.img} link={card.link}>
-        {card.text}
+      <Card title={card.title} img={card.image[0].url} link={`/news/${card.slug}`}>
+        {card.snippet.slice(0, 100)}...
       </Card>
     </div>
   ))

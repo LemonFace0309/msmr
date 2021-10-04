@@ -32,8 +32,8 @@ const MainNav = () => {
           <Link href="/research">
             <Nav.Link href="/research">Research</Nav.Link>
           </Link>
-          <Link href="/msmr-articles">
-            <Nav.Link href="/msmr-articles">Articles</Nav.Link>
+          <Link href="/news">
+            <Nav.Link href="/news">News</Nav.Link>
           </Link>
           <Link href="/#contact">
             <Nav.Link href="/#contact">Contact</Nav.Link>
