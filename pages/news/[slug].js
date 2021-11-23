@@ -26,7 +26,7 @@ import Banner from '../../components/shared/Banner'
 import styles from '../../styles/Article.module.css'
 
 function Article({ article }) {
-  const shareUrl = window.location.href
+  const shareUrl = window?.location?.href ?? ''
 
   return (
     <>
