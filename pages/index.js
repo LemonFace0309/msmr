@@ -28,39 +28,39 @@ export default function Home({ news, posts }) {
 Home.defaultProps = {
   posts: [
     {
-      url: 'https://www.instagram.com/p/CUNV6w6rsHA/',
+      url: 'https://www.instagram.com/p/CWJhSlAvWom/',
       picture_url: '/images/instagram/one.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CT8MyMXr8P0/',
+      url: 'https://www.instagram.com/p/CVxkxIxLbrF/',
       picture_url: '/images/instagram/two.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CTj8c1nLmT-/',
+      url: 'https://www.instagram.com/p/CUz3DWtLSmP/',
       picture_url: '/images/instagram/three.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CTaaMMdJXiY/',
+      url: 'https://www.instagram.com/p/CUqnOLbN7wE/',
       picture_url: '/images/instagram/four.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CTSF2d2LnsQ/',
+      url: 'https://www.instagram.com/p/CUNV6w6rsHA/',
       picture_url: '/images/instagram/five.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CTF10eXrGAI/',
+      url: 'https://www.instagram.com/p/CT8MyMXr8P0/',
       picture_url: '/images/instagram/six.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CSuDdLurdR-/',
+      url: 'https://www.instagram.com/p/CTj8c1nLmT-/',
       picture_url: '/images/instagram/seven.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CSsNVtlLsPL/',
+      url: 'https://www.instagram.com/p/CTaaMMdJXiY/',
       picture_url: '/images/instagram/eight.jpg',
     },
     {
-      url: 'https://www.instagram.com/p/CSfB6DsrN1l/',
+      url: 'https://www.instagram.com/p/CTSF2d2LnsQ/',
       picture_url: '/images/instagram/nine.jpg',
     },
   ],
