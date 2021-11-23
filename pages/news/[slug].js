@@ -34,32 +34,32 @@ function Article({ article }) {
   return (
     <>
       <Head>
-        <title>{article.title}</title>
+        <title>{article?.title}</title>
         <meta
           name="description"
-          content={article.description || article.title}
+          content={article?.description || article?.title}
         />
-        <meta name="keywords" content={article.keywords} />
-        <meta name="og:title" content={article.title} />
-        <meta name="og:image" content={article.image[0]} />
+        <meta name="keywords" content={article?.keywords} />
+        <meta name="og:title" content={article?.title} />
+        <meta name="og:image" content={article?.image[0]} />
         <meta
           name="og:description"
-          content={article.description || article.title}
+          content={article?.description || article?.title}
         />
-        <meta name="twitter:title" content={article.title}></meta>
+        <meta name="twitter:title" content={article?.title}></meta>
         <meta
           name="twitter:description"
-          content={article.description || article.title}
+          content={article?.description || article?.title}
         />
       </Head>
-      <Banner url={getStrapiMedia(article.image[0])} />
+      <Banner url={getStrapiMedia(article?.image[0])} />
       <Container>
         <Row className="mt-4">
-          <h1>{article.title}</h1>
+          <h1>{article?.title}</h1>
         </Row>
-        {article.subtitle && (
+        {article?.subtitle && (
           <Row>
-            <h3 className="text-secondary font-italic">{article.subtitle}</h3>
+            <h3 className="text-secondary font-italic">{article?.subtitle}</h3>
           </Row>
         )}
         <Row>
@@ -67,16 +67,16 @@ function Article({ article }) {
             <div className={styles.authorContainer}>
               <div className={styles.avatar}>
                 <Image
-                  src={getStrapiMedia(article.author.image)}
+                  src={getStrapiMedia(article?.author.image)}
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center center"
                 />
               </div>
               <div className={styles.authorMeta}>
-                <p>{article.author.name}</p>
+                <p>{article?.author.name}</p>
                 <Moment className="text-secondary" format="MMM Do YYYY">
-                  {article.published_at}
+                  {article?.published_at}
                 </Moment>
               </div>
             </div>
@@ -103,7 +103,7 @@ function Article({ article }) {
           </Col>
         </Row>
         <Row className="mt-4 py-4">
-          <ReactMarkdown allowDangerousHtml={true} children={article.content} />
+          <ReactMarkdown allowDangerousHtml={true} children={article?.content} />
         </Row>
       </Container>
     </>
