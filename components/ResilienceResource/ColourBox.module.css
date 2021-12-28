@@ -1,6 +1,7 @@
 .ColourBox {
   /* border: 2px solid black; */
   padding: 0 10px;
+  flex: 1 1 0px;
 }
 
 .ColourBox h2 {

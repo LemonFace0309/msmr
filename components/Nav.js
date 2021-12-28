@@ -26,8 +26,8 @@ const MainNav = () => {
           <Link href="/about">
             <Nav.Link href="/about">About</Nav.Link>
           </Link>
-          <Link href="/resilience">
-            <Nav.Link href="/resilience">Resilience</Nav.Link>
+          <Link href="/resources-and-services">
+            <Nav.Link href="/resources-and-services">Resources & Services</Nav.Link>
           </Link>
           <Link href="/research">
             <Nav.Link href="/research">Research</Nav.Link>

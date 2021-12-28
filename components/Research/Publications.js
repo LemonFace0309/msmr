@@ -28,8 +28,8 @@ function Publications() {
           <Card
             img="/logo.png"
             btnText="VIEW MORE"
-            title="MSMR Articles"
-            link="/msmr-articles"
+            title="News"
+            link="/news"
           />
         </Col>
       </Row>

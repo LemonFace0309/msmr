@@ -10,7 +10,7 @@ function resilience() {
     <>
       <Banner
         url="/images/iphone_background_landscape.jpg"
-        title="RESILIENCE RESOURCES"
+        title="Resources and Services"
       />
       <TextAndPic
         textWidth={6}
@@ -28,7 +28,7 @@ function resilience() {
         </div>
       </TextAndPic>
       <ColourBoxSection />
-      <CovidBanner />
+      {/* <CovidBanner /> */}
       <MindfulnessExercises />
     </>
   )

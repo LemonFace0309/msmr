@@ -138,5 +138,10 @@ about.defaultProps = {
       url: '/images/CPA.jpg',
       caption: 'Canadian Psychological Association Student Research Grant',
     },
+    {
+      organization: 'CIHR',
+      url: '/images/sponsors/cihr-logo.jpg',
+      caption: 'Canadian Institutes of Health Research',
+    },
   ],
 }
