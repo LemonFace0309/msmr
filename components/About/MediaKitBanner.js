@@ -22,7 +22,7 @@ const MediaKitBanner = () => {
       </div>
       <div className={styles.DownloadBox}>
         <a href="/files/JWL Media Kit[2655].pdf" download>
-          <p>For more details, please download Dr. Liu's Media Kit &nbsp;</p>
+          <p>For more details, please download Dr. Liu's media kit &nbsp;</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
