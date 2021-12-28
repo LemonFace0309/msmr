@@ -1,0 +1,22 @@
+.BigStat {
+  text-align: center;
+  padding: 20px 30px;
+  flex: 1 1 0px;
+}
+
+.BigStat h1 {
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+}
+
+.BigStat h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+.BigStat p {
+  color: black;
+  word-wrap: break-word;
+}

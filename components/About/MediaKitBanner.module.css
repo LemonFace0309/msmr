@@ -1,0 +1,43 @@
+.MediaBanner {
+  background-color: #e3f4f2;
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.BigStatContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .BigStatContainer {
+    flex-direction: row;
+  }
+}
+
+.DownloadBox {
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+}
+
+.DownloadBox a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.DownloadBox a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.DownloadBox p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.DownloadBox p:hover {
+  text-decoration: underline;
+}

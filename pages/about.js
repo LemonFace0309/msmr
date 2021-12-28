@@ -6,6 +6,7 @@ import styles from '../styles/About.module.css'
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
 import Acknowledgements from '../components/About/Acknowledgements'
+import MediaKitBanner from '../components/About/MediaKitBanner'
 
 function about({ partners, researchers, techSupport, funderImages }) {
   return (
@@ -52,8 +53,8 @@ function about({ partners, researchers, techSupport, funderImages }) {
           <h2>Author and Creator</h2>
           <p>
             Dr. Jenny Liu is a Postdoctoral Associate with the MacDonald
-            Franklin OSI Research Centre and an Adjunct Research Professor in the
-            Department of Psychiatry, Schulich School of Medicine, Western
+            Franklin OSI Research Centre and an Adjunct Research Professor in
+            the Department of Psychiatry, Schulich School of Medicine, Western
             University. She also holds appointments with the Toronto Western
             Hospital-Krembil Research Institute, and the Daphne Cockwell School
             of Nursing, Ryerson University. Dr. Liu is an elected board member
@@ -68,6 +69,7 @@ function about({ partners, researchers, techSupport, funderImages }) {
           </p>
         </div>
       </TextAndPic>
+      <MediaKitBanner />
       <Acknowledgements title="Collaborators and Partners" people={partners} />
       <Acknowledgements title="Staff Researchers" people={researchers} />
       <Acknowledgements title="Tech Support" people={techSupport} />
@@ -140,7 +142,7 @@ about.defaultProps = {
     },
     {
       organization: 'CIHR',
-      url: '/images/sponsors/cihr-logo.jpg',
+      url: '/images/cihr-logo.jpg',
       caption: 'Canadian Institutes of Health Research',
     },
   ],

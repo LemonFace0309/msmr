@@ -85,7 +85,7 @@ Sponsors.defaultProps = {
       alt: 'American_Psychological_Association_logo',
     },
     {
-      img: '/images/sponsors/cihr-logo.jpg',
+      img: '/images/sponsors/cihr-logo-300x168.jpg',
       alt: 'Canadian Institutes of Health Research',
     },
     {
