@@ -1,10 +1,10 @@
 // @author Jimmy Yang
 import Banner from '../components/shared/Banner'
 import TextAndPic from '../components/shared/TextAndPic'
-import ColourBoxSection from '../components/ResilienceResource/ColourBoxSection'
-import CovidBanner from '../components/ResilienceResource/CovidBanner'
-import MindfulnessExercises from '../components/ResilienceResource/MindfulnessExercises'
-import ConsultingServices from '../components/ResilienceResource/ConsultingServices'
+import ColourBoxSection from '../components/ResourcesAndServices/ColourBoxSection'
+import CovidBanner from '../components/ResourcesAndServices/CovidBanner'
+import MindfulnessExercises from '../components/ResourcesAndServices/MindfulnessExercises'
+import ConsultingServices from '../components/ResourcesAndServices/ConsultingServices'
 
 function resilience() {
   return (
